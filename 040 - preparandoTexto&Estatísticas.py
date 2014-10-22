@@ -155,29 +155,6 @@ pt_RSLPS_stemmer = nltk.stem.RSLPStemmer()
 stpWordsStemm = [pt_RSLPS_stemmer.stem(w) for w in stpWords]
 print printResult(stpWordsStemm, 10*'*' + ' Statistics with RSLPS stemmer ' + 10*'*')
 
-###################################################################
-##print "\n****** Using Regex to tokenize ******"
-##text = '''Família-Empresa S.A. dispõe de $12.400 milhões para concorrência. A 
-##âncora, desse negócio, é conhecida no coração do Órgão responsável. '''
-#pattern = r'''(?x)    # set flag to allow verbose regexps
-#     ([A-Z]\.)+        # abbreviations, e.g. U.S.A.
-#   | \w+(-\w+)*        # words with optional internal hyphens
-#   | \$?\d+(\.\d+)?%?  # currency and percentages, e.g. $12.40, 82%
-#   | \.\.\.            # ellipsis
-#   | [][.,;"'?():-_`]  # these are separate tokens; includes ], [
-#   '''
-##result = nltk.regexp_tokenize(text, pattern,flags=re.UNICODE) 
-##for w in result:
-##    print w
-##print result
-#
-##for w in text.split(): print w #it fails with punctuation
-##f.close()
-###### Changind file encoding, but it seems not working ############
-##with open(path+localFile, 'rb') as source_file:
-##  with open(path+localFile+'utf8', 'w+b') as dest_file:
-##    contents = source_file.read()
-##    dest_file.write(contents.decode('utf-16').encode('utf-8'))
 ####################################################################
 
 print("\nEnd of process in %s" % (datetime.datetime.now() - time1))

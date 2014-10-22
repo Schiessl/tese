@@ -1,0 +1,541 @@
+--------------------------------------------------
+Term to analyze:  evento inesperado
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  detecção
+--------------------------------------------------
+0 detecção : 06281175-n-1 : 
+1 detecção : 00151087-n-1 : 
+2 detecção : 05710687-n-1 : 
+--------------------------------------------------
+Term to analyze:  prevenção
+--------------------------------------------------
+0 prevenção : 01077350-n-1 : 
+--------------------------------------------------
+Term to analyze:  fornecedor
+--------------------------------------------------
+0 fornecedor : 10677271-n-2 : 
+1 provedor : 10677271-n-1 : 
+2 vendedor : 10577284-n-3 : 
+3 fornecedor : 10577284-n-1 : 
+4 comerciante : 10577284-n-2 : 
+--------------------------------------------------
+Term to analyze:  resiliência
+--------------------------------------------------
+0 elasticidade : 05020697-n-2 : 
+1 resiliência : 05020697-n-1 : 
+--------------------------------------------------
+Term to analyze:  perda
+--------------------------------------------------
+0 derrota : 00067526-n-1 : o ato de perder alguém ou algo; "todo mundo esperava que ele ganhasse, portanto sua derrota foi um choque"  : 
+1 perda : 00067526-n-2 : o ato de perder alguém ou algo; "todo mundo esperava que ele ganhasse, portanto sua derrota foi um choque"  : 
+2 perda : 13327676-n-1 : 
+3 desgaste : 13328273-n-1 : 
+4 perdas : 13328273-n-2 : 
+5 prejuízo : 13328273-n-3 : 
+6 perda : 13328273-n-4 : 
+7 perda : 05162985-n-2 : 
+8 privação : 05162985-n-3 : 
+9 prejuízo : 05162985-n-1 : 
+10 perda : 07427728-n-1 : 
+11 forfeit : 00205891-n-2 : 
+12 perda : 00205891-n-1 : 
+--------------------------------------------------
+Term to analyze:  ataque
+--------------------------------------------------
+0 ataque : 00773814-n-3 : 
+1 atentado : 00773814-n-1 : 
+2 assalto : 00773814-n-2 : 
+3 ataque : 00977301-n-1 : uma agressão que se destina a aproveitar, provocar danos ou destruir um objetivo; "o ataque foi programado para o começar ao amanhecer " : 
+4 ataque : 00457723-n-1 : 
+5 ataque : 00972621-n-1 : (militar) uma ofensiva contra um inimigo (usando armas); "o ataque começou ao amanhecer" : 
+--------------------------------------------------
+Term to analyze:  participante
+--------------------------------------------------
+0 participante : 10401829-n-1 : 
+1 participante : 10439851-n-1 : 
+2 jogador : 10439851-n-2 : 
+3 participante : 01515280-a-2 : 
+4 activo : 01515280-a-1 : 
+--------------------------------------------------
+Term to analyze:  organização
+--------------------------------------------------
+0 organização : 01136519-n-1 : 
+1 organização : 08049401-n-2 : 
+2 sociedade : 08049401-n-3 : 
+3 ordem : 08049401-n-5 : 
+4 associações : 08049401-n-1 : 
+5 união : 08049401-n-4 : 
+6 organização : 08435388-n-1 : 
+7 sistema : 08435388-n-2 : 
+8 organização : 01008378-n-1 : a atividade ou resultado de distribuição ou disposição de pessoas ou coisas corretamente ou metodicamente; "sua organização da força de trabalho foi muito eficiente " : 
+9 estrutura : 05726596-n-2 : 
+10 organização : 05726596-n-4 : 
+11 ordem : 05726596-n-1 : 
+12 sistema : 05726596-n-3 : 
+13 estabelecimento : 00237078-n-3 : o ato de formar ou estabelecer alguma coisa; "a constituição de uma associação de pais e professores"; "foi o estabelecimento da sua reputação"; " ele ainda se lembra da organização do clube" : 
+14 constituição : 00237078-n-2 : o ato de formar ou estabelecer alguma coisa; "a constituição de uma associação de pais e professores"; "foi o estabelecimento da sua reputação"; " ele ainda se lembra da organização do clube" : 
+15 organização : 00237078-n-1 : o ato de formar ou estabelecer alguma coisa; "a constituição de uma associação de pais e professores"; "foi o estabelecimento da sua reputação"; " ele ainda se lembra da organização do clube" : 
+16 organização : 08008335-n-1 : 
+17 administração : 08164585-n-1 : 
+18 organização : 08164585-n-2 : 
+19 organização : 04768657-n-1 : 
+--------------------------------------------------
+Term to analyze:  método comportamental
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  fraude
+--------------------------------------------------
+0 fraude : 00753685-n-2 : 
+1 hoax : 00753685-n-3 : 
+2 trote : 00753685-n-1 : 
+--------------------------------------------------
+Term to analyze:  risco de liquidez
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  sinistro
+--------------------------------------------------
+0 Sinistro : 01061945-n-2 : 
+1 sinistro : 01061945-n-1 : 
+2 infernal : 01132515-a-2 : 
+3 sinistro : 01132515-a-1 : 
+4 diabólico : 01132515-a-3 : 
+--------------------------------------------------
+Term to analyze:  default
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  risco setorial
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  banco central
+--------------------------------------------------
+0 Bancos centrais : 08349916-n-2 : 
+1 banco central : 08349916-n-1 : 
+2 Banco Central : 08349916-n-3 : 
+--------------------------------------------------
+Term to analyze:  risco de crédito
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  grupo de resposta
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  exposição
+--------------------------------------------------
+0 exposição : 00522537-n-1 : 
+1 exibição : 00521209-n-1 : algo mostrado ao público : 
+2 exposição : 00521209-n-2 : algo mostrado ao público : 
+3 vulnerabilidade : 14543931-n-1 : 
+4 exposição : 14543931-n-2 : 
+5 exposição : 00522145-n-1 : 
+6 exposição : 08407619-n-2 : 
+7 Exposições : 08407619-n-1 : 
+--------------------------------------------------
+Term to analyze:  contramedidas
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  concentração
+--------------------------------------------------
+0 concentração : 07413899-n-1 : 
+1 concentração : 01231980-n-1 : reunir forças militares : 
+2 concentração : 00375071-n-1 : 
+3 concentração : 05650579-n-2 : 
+4 atenção : 05650579-n-1 : 
+5 densidade : 04941453-n-4 : 
+6 Massa volúmica : 04941453-n-2 : 
+7 Densidade : 04941453-n-3 : 
+8 concentração : 04941453-n-1 : 
+9 concentração : 05704266-n-1 : 
+10 concentração : 05038593-n-2 : 
+11 concentrações : 05038593-n-1 : 
+12 densidade : 05088804-n-2 : 
+13 concentração : 05088804-n-1 : 
+14 concentração : 04865502-n-1 : 
+15 assiduidade : 04865502-n-2 : 
+--------------------------------------------------
+Term to analyze:  infraestrutura
+--------------------------------------------------
+0 infra-estrutura : 03570372-n-2 : 
+1 infraestrutura : 03570372-n-3 : 
+2 infraestructura : 03570372-n-1 : 
+3 infraestructura : 03569964-n-1 : 
+4 infraestrutura : 03569964-n-4 : 
+5 infra-estrutura : 03569964-n-2 : 
+6 infra-estruturas : 03569964-n-3 : 
+--------------------------------------------------
+Term to analyze:  ativo
+--------------------------------------------------
+0 ativo : 00038750-a-1 : 
+1 agencioso : 00038750-a-2 : 
+2 ativo : 00032733-a-1 : 
+3 serelepe : 00032733-a-2 : 
+4 ligeiro : 00032733-a-5 : 
+5 lesto : 00032733-a-3 : 
+6 rápido : 00032733-a-7 : 
+7 lépido : 00032733-a-4 : 
+8 ágil : 00032733-a-6 : 
+--------------------------------------------------
+Term to analyze:  regra
+--------------------------------------------------
+0 regulamentos : 05846054-n-5 : 
+1 lei : 05846054-n-2 : 
+2 regra : 05846054-n-4 : 
+3 regulamento : 05846054-n-1 : 
+4 norma : 05846054-n-3 : 
+--------------------------------------------------
+Term to analyze:  risco técnico
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  limite
+--------------------------------------------------
+0 limite : 05124057-n-3 : 
+1 limitação : 05124057-n-1 : 
+2 fronteira : 05124057-n-2 : 
+3 fronteira : 03264542-n-2 : 
+4 limite : 03264542-n-3 : 
+5 borda : 03264542-n-4 : 
+6 aba : 03264542-n-1 : 
+7 limite : 13903387-n-2 : 
+8 borda : 13903387-n-3 : 
+9 perímetro : 13903387-n-1 : 
+10 fronteira : 13903387-n-4 : 
+11 limite : 08512259-n-3 : 
+12 fronteira : 08512259-n-2 : 
+13 fronteiras : 08512259-n-1 : 
+14 limite : 08592656-n-1 : 
+15 fronteira : 08592656-n-2 : 
+16 máximo : 05124928-n-1 : 
+17 limite : 05124928-n-2 : 
+18 limite : 08512736-n-3 : 
+19 delimitação : 08512736-n-2 : 
+20 borda : 08512736-n-1 : 
+21 fronteira : 08512736-n-4 : 
+22 perímetro : 13871452-n-2 : 
+23 limite : 13871452-n-1 : 
+24 limite : 08565701-n-3 : 
+25 fronteira : 08565701-n-4 : 
+26 borda : 08565701-n-2 : 
+27 margem : 08565701-n-1 : 
+28 limite : 13903079-n-4 : 
+29 margem interior : 13903079-n-1 : 
+--------------------------------------------------
+Term to analyze:  máquina
+--------------------------------------------------
+0 Máquina simples : 03700963-n-3 : 
+1 máquina : 03700963-n-1 : 
+2 Máquinas Simples : 03700963-n-2 : 
+3 mecanismo : 03738472-n-2 : 
+4 máquina : 03738472-n-1 : 
+5 motor : 03287733-n-3 : 
+6 motores : 03287733-n-2 : 
+7 máquina : 03287733-n-1 : 
+8 máquina : 03701640-n-1 : 
+9 maquinaria : 03701640-n-2 : 
+10 máquina : 10278666-n-1 : 
+11 maquinaria : 03699975-n-1 : 
+12 máquina : 03699975-n-2 : 
+13 locomotivas : 03684823-n-3 : 
+14 máquina : 03684823-n-1 : 
+15 locomotiva : 03684823-n-2 : 
+16 carro : 02958343-n-8 : 
+17 automóvel : 02958343-n-9 : 
+18 auto : 02958343-n-5 : 
+19 automovel : 02958343-n-3 : 
+20 viatura : 02958343-n-1 : 
+21 automóveis particulares : 02958343-n-6 : 
+22 automóveis : 02958343-n-7 : 
+23 máquina : 02958343-n-4 : 
+24 veículo : 02958343-n-2 : 
+--------------------------------------------------
+Term to analyze:  risco político
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  especialistas
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  serviço
+--------------------------------------------------
+0 serviço : 04175380-n-1 : 
+1 serviço : 00098625-n-1 : 
+2 serviço : 01209576-n-1 : 
+3 instalação : 03315023-n-2 : 
+4 serviço : 03315023-n-3 : 
+5 infra-estrutura : 03315023-n-1 : 
+6 serviço : 00719705-n-1 : uma parte específica do trabalho que requer ser feito como um dever ou por honorário específico : 
+7 incumbência : 00719705-n-2 : uma parte específica do trabalho que requer ser feito como um dever ou por honorário específico : 
+8 serviço : 01032368-n-1 : um serviço realizado em uma casa de culto; "não se atrase para a igreja" : 
+9 Serviço : 00568430-n-2 : 
+10 serviço : 00568430-n-1 : 
+11 serviço : 08186047-n-1 : 
+12 lugar : 00582388-n-4 : 
+13 profissão : 00582388-n-5 : 
+14 função : 00582388-n-2 : 
+15 serviço : 00582388-n-3 : 
+16 emprego : 00582388-n-8 : 
+17 ofício : 00582388-n-1 : 
+18 trabalho : 00582388-n-6 : 
+19 ocupação : 00582388-n-7 : 
+20 serviço : 00577525-n-1 : 
+21 serviço : 13325847-n-1 : 
+22 serviço : 01032040-n-1 : 
+23 serviço : 00584891-n-1 : 
+--------------------------------------------------
+Term to analyze:  infraestrutura crítica financeira
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  risco principal
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  proteção
+--------------------------------------------------
+0 protecção : 00817680-n-1 : a atividade de proteger alguém ou alguma coisa; "as testemunhas exigiram proteção policial" : 
+1 proteção : 00817680-n-2 : a atividade de proteger alguém ou alguma coisa; "as testemunhas exigiram proteção policial" : 
+2 proteção : 01213886-n-2 : o ato de conceder aprovação e suporte; "sua vigorosa proteção aos conservadores o deixou com problemas com os progressistas" : 
+3 mecenato : 01213886-n-1 : o ato de conceder aprovação e suporte; "sua vigorosa proteção aos conservadores o deixou com problemas com os progressistas" : 
+4 proteção : 00954311-n-1 : (militar) ação militar ou recursos protegendo um país contra inimigos em potencial; "eles morreram na defesa de Stalingrado"; "eles foram desenvolvidos para o programa de proteção " : 
+5 defesa : 00954311-n-2 : (militar) ação militar ou recursos protegendo um país contra inimigos em potencial; "eles morreram na defesa de Stalingrado"; "eles foram desenvolvidos para o programa de proteção " : 
+--------------------------------------------------
+Term to analyze:  desastre
+--------------------------------------------------
+0 desastre : 07314838-n-2 : 
+1 flagelo : 07314838-n-1 : 
+2 calamidade : 07314838-n-4 : 
+3 catástrofe : 07314838-n-6 : 
+4 tragédia : 07314838-n-5 : 
+5 catástrofes : 07314838-n-3 : 
+6 cataclismo : 07314838-n-7 : 
+7 catástrofes naturais : 14476290-n-1 : 
+8 catástrofes : 14476290-n-3 : 
+9 catástrofe : 14476290-n-4 : 
+10 desastre : 14476290-n-2 : 
+11 desastre : 00217499-n-1 : 
+--------------------------------------------------
+Term to analyze:  consultoria
+--------------------------------------------------
+0 consultoria : 08073844-n-1 : 
+1 consultoria : 00631712-n-1 : 
+2 consultas : 00631712-n-2 : 
+--------------------------------------------------
+Term to analyze:  participante de mercado crítico
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  falha em transação
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  risco operacional
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  risco de compensação
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  interrupção de operaçao significativa
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  roubo
+--------------------------------------------------
+0 roubar : 00769944-n-1 : 
+1 roubo : 00769944-n-3 : 
+2 rapto : 00769944-n-2 : 
+3 furto : 00780889-n-2 : ato de tomar algo de alguém ilegalmente : 
+4 roubo : 00780889-n-1 : ato de tomar algo de alguém ilegalmente : 
+5 roubo : 00966869-n-3 : 
+6 furto : 00966869-n-1 : 
+7 espoliação : 00966869-n-2 : 
+8 assalto : 00781685-n-1 : 
+9 roubo : 00781685-n-2 : 
+10 rapina : 13262663-n-2 : 
+11 saque : 13262663-n-5 : 
+12 roubo : 13262663-n-1 : 
+13 botim : 13262663-n-4 : 
+14 espólio : 13262663-n-3 : 
+15 pilhagem : 13262663-n-6 : 
+16 roubo : 00966599-n-1 : 
+17 pilhagem : 00966599-n-3 : 
+18 saque : 00966599-n-2 : 
+--------------------------------------------------
+Term to analyze:  agente de ameaça
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  pessoa jurídica
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  risco social e ambiental
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  líder da indústria
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  opções de tecnologia
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  correção
+--------------------------------------------------
+0 correção : 01250101-n-2 : 
+1 emenda : 01250101-n-1 : 
+2 correção : 05031849-n-1 : 
+3 precisão : 04802907-n-6 : 
+4 correção : 04802907-n-1 : 
+5 acurácia : 04802907-n-2 : 
+6 exactidão : 04802907-n-4 : 
+7 exatidão : 04802907-n-5 : 
+8 rigor : 04802907-n-3 : 
+9 retificação : 00258854-n-2 : o ato de oferecer uma melhoria para substituir um erro; endireitar : 
+10 correção : 00258854-n-1 : o ato de oferecer uma melhoria para substituir um erro; endireitar : 
+--------------------------------------------------
+Term to analyze:  produto
+--------------------------------------------------
+0 mercadoria : 03076708-n-5 : 
+1 produto : 03076708-n-6 : 
+2 artigo : 03076708-n-7 : 
+3 objecto posto à venda : 03076708-n-1 : 
+4 fazenda : 03076708-n-2 : 
+5 bem : 03076708-n-3 : 
+6 Bens : 03076708-n-4 : 
+7 mercadoria : 03748886-n-4 : 
+8 artigo : 03748886-n-3 : 
+9 fazenda : 03748886-n-2 : 
+10 produto : 03748886-n-5 : 
+11 mercadorias : 03748886-n-1 : 
+12 produtos : 14997699-n-1 : 
+13 produto : 14997699-n-2 : 
+14 produto : 02749953-n-1 : 
+15 produto : 11415842-n-1 : 
+16 produtos : 11415842-n-2 : 
+17 bens : 04007894-n-3 : 
+18 produtos : 04007894-n-1 : 
+19 produção : 04007894-n-5 : 
+20 produto : 04007894-n-4 : 
+21 produções : 04007894-n-2 : 
+22 utensílio : 00021939-n-1 : um objeto feito pelo homem considerado como um todo : 
+23 artefato : 00021939-n-3 : um objeto feito pelo homem considerado como um todo : 
+24 produto : 00021939-n-2 : um objeto feito pelo homem considerado como um todo : 
+25 produto : 04612722-n-3 : 
+26 produção : 04612722-n-1 : 
+27 fruto : 04612722-n-2 : 
+28 produtos : 05859630-n-2 : 
+29 produto : 05859630-n-1 : 
+--------------------------------------------------
+Term to analyze:  risco legal
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  pessoal
+--------------------------------------------------
+0 companhia : 08187033-n-3 : 
+1 pessoal : 08187033-n-2 : 
+2 elenco : 08187033-n-1 : 
+3 pessoal : 08439955-n-3 : 
+4 estado-maior : 08439955-n-1 : 
+5 equipe de funcionários : 08439955-n-2 : 
+6 pessoal : 01616157-a-1 : 
+7 pessoal : 08118991-n-1 : 
+8 polícias : 08209687-n-1 : 
+9 polícia : 08209687-n-5 : 
+10 pessoal : 08209687-n-4 : 
+11 Policia : 08209687-n-2 : 
+12 Polícia : 08209687-n-3 : 
+13 pessoal : 07947255-n-2 : 
+14 vulgo : 07947255-n-1 : 
+15 povo : 07947255-n-4 : 
+16 nação : 07947255-n-3 : 
+17 gente : 07947255-n-5 : 
+--------------------------------------------------
+Term to analyze:  vulnerabilidade
+--------------------------------------------------
+0 Vulnerabilidade : 05042871-n-3 : 
+1 debilidade : 05042871-n-1 : 
+2 vulnerabilidade : 05042871-n-2 : 
+3 vulnerabilidade : 14543931-n-1 : 
+4 exposição : 14543931-n-2 : 
+--------------------------------------------------
+Term to analyze:  ameaça
+--------------------------------------------------
+0 ameaça : 06733782-n-1 : 
+1 ameaça : 14543231-n-1 : 
+2 ameaça : 14541044-n-2 : 
+3 risco : 14541044-n-1 : 
+4 perigo : 14541044-n-3 : 
+5 ameaça : 06733476-n-1 : 
+6 perigo : 14541852-n-3 : 
+7 ameaça : 14541852-n-2 : 
+8 risco : 14541852-n-1 : 
+9 ameaça : 07226015-n-2 : 
+10 groźba : 07226015-n-1 : 
+--------------------------------------------------
+Term to analyze:  Órgão regulador
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  academia
+--------------------------------------------------
+0 academia : 02669885-n-1 : 
+1 academia : 08280124-n-1 : 
+2 escola : 08277805-n-1 : 
+3 academia : 08277805-n-2 : 
+4 Ginásio : 03472112-n-2 : 
+5 ginásio : 03472112-n-3 : 
+6 academia : 03472112-n-1 : 
+--------------------------------------------------
+Term to analyze:  mitigação do risco
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  risco de contraparte
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  risco
+--------------------------------------------------
+0 risco : 05256358-n-1 : 
+1 risco : 08593924-n-2 : 
+2 linha : 08593924-n-1 : 
+3 traço : 08593924-n-3 : 
+4 risco : 04683136-n-1 : 
+5 listra : 04683136-n-2 : 
+6 perigo : 14541852-n-3 : 
+7 ameaça : 14541852-n-2 : 
+8 risco : 14541852-n-1 : 
+9 risco : 00802238-n-2 : um risco empreendido sem levar em conta possíveis perdas ou danos : 
+10 perigo : 00802238-n-1 : um risco empreendido sem levar em conta possíveis perdas ou danos : 
+11 ameaça : 14541044-n-2 : 
+12 risco : 14541044-n-1 : 
+13 perigo : 14541044-n-3 : 
+--------------------------------------------------
+Term to analyze:  oferta de serviço
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  líderes funcionais
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  diretriz
+--------------------------------------------------
+0 directiva : 07170080-n-1 : 
+1 diretiva : 07170080-n-4 : 
+2 directivas : 07170080-n-3 : 
+3 diretriz : 07170080-n-2 : 
+--------------------------------------------------
+Term to analyze:  pesquisa
+--------------------------------------------------
+0 pesquisa : 05800611-n-2 : 
+1 sindicância : 05800611-n-1 : 
+2 investigação : 05800611-n-3 : 
+3 inquérito : 05800611-n-4 : 
+4 investigação : 00945777-n-2 : 
+5 pesquisa : 00945777-n-1 : 
+6 exploração : 00945777-n-3 : 
+7 sondagens de opinião pública : 05800998-n-2 : 
+8 pesquisa : 05800998-n-3 : 
+9 pesquisa de opinião : 05800998-n-4 : 
+10 enquête : 05800998-n-1 : 
+11 pesquisa : 00636921-n-1 : investigação sistemática para estabelecer fatos : 
+12 inquérito : 05797597-n-3 : 
+13 investigação : 05797597-n-2 : 
+14 Pesquisa : 05797597-n-1 : 
+15 pesquisa : 05797597-n-4 : 
+--------------------------------------------------
+Term to analyze:  pessoa física
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  stakeholder
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  fator de risco
+--------------------------------------------------
+--------------------------------------------------
+Term to analyze:  parte confiável
+--------------------------------------------------

@@ -1,0 +1,26 @@
+ISO3166 código de país , not found , 0
+ISO4217 moeda , not found , 0
+cargo , cargo , 1.0
+cidade de localização , not found , 0
+códigos internacionais , not found , 0
+dados institucionais , not found , 0
+dados pessoais , not found , 0
+data de fundação , not found , 0
+data de morte , not found , 0
+data de nascimento , not found , 0
+descrição , descrição , 1.0
+descrição resumida , not found , 0
+fundado por , not found , 0
+indústria , indústria , 1.0
+indústria , indústrias , 0.9
+local de nascimento , not found , 0
+localidade de atuação , not found , 0
+lugar de fundação , not found , 0
+número de empregados , not found , 0
+número de localidades , not found , 0
+pessoa-chave , not found , 0
+receita líquida , not found , 0
+resumo , resumo , 1.0
+símbolo , not found , 0
+tem endereço , not found , 0
+tem nome , not found , 0

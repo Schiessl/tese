@@ -1,0 +1,4 @@
+Ameaça , ameaça , 1.0
+Fator de risco , not found , 0
+Fornecedor , fornecedor , 1.0
+Pesquisa , pesquisa , 1.0

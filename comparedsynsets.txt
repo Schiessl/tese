@@ -1,0 +1,15 @@
+Exposições , exposições , 0.9
+Sinistro , sinistro , 1.0
+Sinistro , ministro , 0.889
+Sinistro , sinistros , 0.889
+diabólico , not found , 0
+exibição , not found , 0
+exposição , exposição , 1.0
+exposição , reposição , 0.8
+exposição , imposição , 0.8
+exposição , suposição , 0.8
+infernal , internal , 0.889
+sinistro , sinistro , 1.0
+sinistro , sinistros , 0.889
+sinistro , ministro , 0.889
+vulnerabilidade , vulnerabilidade , 1.0

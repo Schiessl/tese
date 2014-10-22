@@ -40,13 +40,15 @@ def querySparql(varToQuery):
     print '======================================================='
     if varToQuery == 'Class':
         print ' Classes em português '
+        wFile = "/Users/marceloschiessl/RDF_text_project/tese/outClass.txt" #defining file to write
     elif varToQuery == 'DatatypeProperty':
         print ' Propriedades de dados em português '
+        wFile = "/Users/marceloschiessl/RDF_text_project/tese/outDatatypeProperty.txt" #defining file to write
     else:
         print ' Propriedades de objetos em português '
+        wFile = "/Users/marceloschiessl/RDF_text_project/tese/outObjectProperty.txt" #defining file to write
     print '======================================================='
 
-    wFile = "/Users/marceloschiessl/RDF_text_project/tese/outClassProperty.txt" #defining file to write
     to_file = open(wFile, 'w') #opening file to write
 
     for i,stmt in enumerate(result_set):
@@ -60,5 +62,5 @@ def querySparql(varToQuery):
 if __name__ == '__main__':
     import timeit
     print(timeit.timeit("querySparql('Class')", setup="from __main__ import querySparql", number=1))
-#     print(timeit.timeit("querySparql('ObjectProperty')", setup="from __main__ import querySparql", number=1))
-#     print(timeit.timeit("querySparql('DatatypeProperty')", setup="from __main__ import querySparql", number=1))
+    print(timeit.timeit("querySparql('ObjectProperty')", setup="from __main__ import querySparql", number=1))
+    print(timeit.timeit("querySparql('DatatypeProperty')", setup="from __main__ import querySparql", number=1))

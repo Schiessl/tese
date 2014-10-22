@@ -1,0 +1,20 @@
+Inclui , inclui , 1.0
+atração , not found , 0
+aumenta , aumenta , 1.0
+conduz a , not found , 0
+define , define , 1.0
+deseja diminuir , not found , 0
+estar ciente de , not found , 0
+explora , not found , 0
+impõe , impõe , 1.0
+materializar como , not found , 0
+para , not found , 0
+para reduzir , not found , 0
+pode danificar , not found , 0
+pode possuir , not found , 0
+pode ser reduzido por , not found , 0
+possui , possui , 1.0
+sobre , not found , 0
+suscita , not found , 0
+valoriza , not found , 0
+é conduzido por , not found , 0

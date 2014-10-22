@@ -1,0 +1,157 @@
+---------------------------------------
+Term to analyze:  é conduzido por
+
+---------------------------------------
+---------------------------------------
+Term to analyze:  possui
+
+---------------------------------------
+---------------------------------------
+Term to analyze:  para
+
+---------------------------------------
+Synsets =  Synset('parity.n.01') None
+parity
+para
+Definition:  (obstetrics) the number of liveborn children a woman has delivered
+Example:  [u'the parity of the mother must be considered', u'a bipara is a woman who has given birth to two children']
+POS:  n 
+
+Synsets =  Synset('para.n.02') None
+para
+Definition:  100 para equal 1 dinar in Yugoslavia
+Example:  []
+POS:  n 
+
+Synsets =  Synset('paratrooper.n.01') [u'paraquedista']
+paratrooper
+para
+Definition:  a soldier in the paratroops
+Example:  []
+POS:  n 
+
+Synsets =  Synset('para.n.04') [u'Rio_par\xe1', u'rio_Par\xe1']
+Para
+Para_River
+Definition:  an estuary in northern Brazil into which the Tocantins River flows
+Example:  []
+POS:  n 
+
+Synsets =  Synset('belem.n.01') [u'Santa_Maria_de_Bel\xe9m', u'Santa_maria_de_bel\xe9m']
+Belem
+Para
+Feliz_Lusitania
+Santa_Maria_de_Belem
+St._Mary_of_Bethlehem
+Definition:  port city in northern Brazil in the Amazon delta; main port and commercial center for the Amazon River basin
+Example:  []
+POS:  n 
+
+---------------------------------------
+Term to analyze:  define
+
+---------------------------------------
+Synsets =  Synset('specify.v.03') [u'especificar']
+specify
+define
+delineate
+delimit
+delimitate
+Definition:  determine the essential quality of
+Example:  []
+POS:  v 
+
+Synsets =  Synset('define.v.02') [u'definir']
+define
+Definition:  give a definition for the meaning of a word
+Example:  [u"Define `sadness'"]
+POS:  v 
+
+Synsets =  Synset('define.v.03') None
+define
+Definition:  determine the nature of
+Example:  [u'What defines a good wine?']
+POS:  v 
+
+Synsets =  Synset('define.v.04') [u'delinear']
+define
+delineate
+Definition:  show the form or outline of
+Example:  [u'The tree was clearly defined by the light', u'The camera could define the smallest object']
+POS:  v 
+
+Synsets =  Synset('specify.v.02') [u'especificar']
+specify
+set
+determine
+define
+fix
+limit
+Definition:  decide upon or fix definitely
+Example:  [u'fix the variables', u'specify the parameters']
+POS:  v 
+
+---------------------------------------
+Term to analyze:  pode ser reduzido por
+
+---------------------------------------
+---------------------------------------
+Term to analyze:  pode danificar
+
+---------------------------------------
+---------------------------------------
+Term to analyze:  Inclui
+
+---------------------------------------
+---------------------------------------
+Term to analyze:  materializar como
+
+---------------------------------------
+---------------------------------------
+Term to analyze:  conduz a
+
+---------------------------------------
+---------------------------------------
+Term to analyze:  pode possuir
+
+---------------------------------------
+---------------------------------------
+Term to analyze:  impõe
+
+---------------------------------------
+---------------------------------------
+Term to analyze:  atração
+
+---------------------------------------
+---------------------------------------
+Term to analyze:  deseja diminuir
+
+---------------------------------------
+---------------------------------------
+Term to analyze:  sobre
+
+---------------------------------------
+---------------------------------------
+Term to analyze:  valoriza
+
+---------------------------------------
+---------------------------------------
+Term to analyze:  suscita
+
+---------------------------------------
+---------------------------------------
+Term to analyze:  estar ciente de 
+
+---------------------------------------
+---------------------------------------
+Term to analyze:  para reduzir
+
+---------------------------------------
+---------------------------------------
+Term to analyze:  aumenta
+
+---------------------------------------
+---------------------------------------
+Term to analyze:  explora
+
+---------------------------------------

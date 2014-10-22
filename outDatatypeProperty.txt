@@ -1,0 +1,25 @@
+símbolo
+localidade de atuação
+local de nascimento
+pessoa-chave
+cargo
+número de empregados
+tem nome
+descrição resumida
+ISO3166 código de país
+data de morte
+indústria
+lugar de fundação
+cidade de localização
+receita líquida
+tem endereço
+dados pessoais
+data de fundação
+número de localidades
+resumo
+fundado por
+ISO4217 moeda
+dados institucionais
+data de nascimento
+descrição
+códigos internacionais
