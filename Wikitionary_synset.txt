@@ -1,0 +1,103 @@
+--------------------------------------------------
+Term to analyze:  perda
+--------------------------------------------------
+0 perda : Substantivo : 2 : privação de coisa que se possuía; : 
+1 perda : Substantivo : 5 : carência; : 
+2 perda : Substantivo : 4 : desaparecimento; : 
+3 perda : Substantivo : 6 : detrimento; : 
+4 perda : Substantivo : 3 : extravio; : 
+5 perda : Substantivo : 8 : dano; : 
+6 perda : Substantivo : 1 : ato de perder; : 
+7 perda : Substantivo : 7 : desgraça; : 
+8 perda : Substantivo : 10 : ruína. : 
+9 perda : Substantivo : 9 : prejuízo; : 
+--------------------------------------------------
+Term to analyze:  participante
+--------------------------------------------------
+0 participante : Substantivo : 3 : aquele que participa : 
+1 participante : Substantivo : 4 : aquele que toma parte : 
+2 participante : Adjetivo : 1 : que participa : 
+3 participante : Adjetivo : 2 : que toma parte : 
+--------------------------------------------------
+Term to analyze:  fraude
+--------------------------------------------------
+0 fraude : Substantivo : 1 : burla : 
+1 fraude : Substantivo : 3 : dolo : 
+2 fraude : Substantivo : 2 : engano propositado, falsificação : 
+--------------------------------------------------
+Term to analyze:  sinistro
+--------------------------------------------------
+0 sinistro : Adjetivo : 4 : que se deve temer; assustador, temível : 
+1 sinistro : Adjetivo : 5 : que causa o mal; pernicioso, perigoso : 
+2 sinistro : Adjetivo : 6 : trágico, calamitoso : 
+3 sinistro : Adjetivo : 7 : que é muito legal, emocionante, irado : 
+4 sinistro : Adjetivo : 2 : que pressagia acontecimentos infaustos; agourento, funesto : 
+5 sinistro : Adjetivo : 3 : que é pernicioso; mau : 
+6 sinistro : Adjetivo : 1 : que usa preferencialmente a mão esquerda (diz-se de pessoa); esquerdo, canhoto : 
+--------------------------------------------------
+Term to analyze:  ativo
+--------------------------------------------------
+0 ativo : Substantivo : 6 : bens e direitos de uma empresa : 
+1 ativo : Adjetivo : 4 : ininterrupto : 
+2 ativo : Adjetivo : 3 : que opera com energia : 
+3 ativo : Adjetivo : 2 : que tem ação, que atua : 
+4 ativo : Adjetivo : 5 : que denota a ação de um verbo : 
+5 ativo : Adjetivo : 1 : diligente, expedito : 
+--------------------------------------------------
+Term to analyze:  serviço
+--------------------------------------------------
+0 serviço : Substantivo : 4 : suprimento público regular de algo, como por exemplo transporte : 
+1 serviço : Substantivo : 2 : o processo de atender aos clientes (como por exemplo, num hotel ou restaurante) : 
+2 serviço : Substantivo : 9 : trabalho de curta duração : 
+3 serviço : Substantivo : 8 : conjunto de pratos, talheres, etc para serem usados à mesa : 
+4 serviço : Substantivo : 6 : em certos jogos, tais como tênis, pingue-pongue, etc., o saque ou série de saques : 
+5 serviço : Substantivo : 10 : ato ou desempenho intangível oferecido por uma parte a outra; é um benefício que os clientes obtêm pela realização da atividade desejada ou pelo uso de um bem físico; são mudanças ocorridas em nome ou no próprio cliente : 
+6 serviço : Substantivo : 5 : celebração de atos religiosos : 
+7 serviço : Substantivo : 3 : a condição ou trabalho de um serviçal : 
+8 serviço : Substantivo : 1 : o ato de servir : 
+9 serviço : Substantivo : 7 : um departamento governamental ou de trabalhos públicos : 
+--------------------------------------------------
+Term to analyze:  correção
+--------------------------------------------------
+0 correção : Substantivo : 2 : Castigo com a finalidade de ensinar; : 
+1 correção : Substantivo : 4 : Retificação; emenda; aperfeiçoamento. : 
+2 correção : Substantivo : 3 : Qualidade de quem é correto; : 
+3 correção : Substantivo : 1 : Ato ou efeito de corrigir; : 
+--------------------------------------------------
+Term to analyze:  pessoal
+--------------------------------------------------
+0 pessoal : Substantivo : 5 : conjunto de pessoas que trabalham num serviço ou num estabelecimento; conjunto de indivíduos reunidos por qualquer motivo : 
+1 pessoal : Substantivo : 6 : a turma, a família, os amigos : 
+2 pessoal : Adjetivo : 2 : que é próprio e particular de cada pessoa : 
+3 pessoal : Adjetivo : 1 : relativo a pessoa : 
+4 pessoal : Adjetivo : 3 : exclusivo de certa pessoa; individual : 
+5 pessoal : Adjetivo : 4 : diz-se de pronome que representa pessoa gramatical : 
+--------------------------------------------------
+Term to analyze:  ameaça
+--------------------------------------------------
+0 ameaça : Substantivo : 3 : gesto que exprime intenção de prejudicar ou machucar alguém : 
+1 ameaça : Substantivo : 1 : ato de ameaçar : 
+2 ameaça : Substantivo : 2 : perigo : 
+--------------------------------------------------
+Term to analyze:  possui
+--------------------------------------------------
+0 possui : Verbo : 1 : terceira pessoa do singular do presente do indicativo do verbo possuir	: 
+1 possui : Verbo : 2 : segunda pessoa do singular do imperativo do verbo possuir : 
+--------------------------------------------------
+Term to analyze:  sobre
+--------------------------------------------------
+0 sobre : Advérbio : 1 : emprega-se para designar que o vento sopra por ante-avante do pano : 
+1 sobre : Substantivo : 2 : qualquer das últimas velas trapezoidais dos navios (tipo corveta) : 
+--------------------------------------------------
+Term to analyze:  cargo
+--------------------------------------------------
+0 cargo : Substantivo : 1 : ocupação, profissão : 
+1 cargo : Substantivo : 2 : ofício : 
+2 cargo : Substantivo : 3 : responsabilidade : 
+--------------------------------------------------
+Term to analyze:  resumo
+--------------------------------------------------
+0 resumo : Substantivo : 2 : exposição curta, breve, de uma sucessão de acontecimentos, das características gerais de algo, etc.; extrato, síntese, sinopse, sumário. : 
+1 resumo : Substantivo : 1 : ato ou efeito de resumir. : 
+2 resumo : Substantivo : 3 : apresentação, em poucas palavras, do conteúdo de artigo, livro, etc. : 
+3 resumo : Substantivo : 4 : aquilo que representa, ilustra ou traz em si as principais características de algo maior. : 

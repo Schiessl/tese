@@ -1,0 +1,160 @@
+---------------------------------------
+Term to analyze:  cargo
+
+---------------------------------------
+Synsets =  Synset('cargo.n.01') [u'carga']
+cargo
+lading
+freight
+load
+loading
+payload
+shipment
+consignment
+Definition:  goods carried by a large vehicle
+Example:  []
+POS:  n 
+---------------------------------------
+Term to analyze:  para
+
+---------------------------------------
+Synsets =  Synset('parity.n.01') None
+parity
+para
+Definition:  (obstetrics) the number of liveborn children a woman has delivered
+Example:  [u'the parity of the mother must be considered', u'a bipara is a woman who has given birth to two children']
+POS:  n 
+
+Synsets =  Synset('para.n.02') None
+para
+Definition:  100 para equal 1 dinar in Yugoslavia
+Example:  []
+POS:  n 
+
+Synsets =  Synset('paratrooper.n.01') [u'paraquedista']
+paratrooper
+para
+Definition:  a soldier in the paratroops
+Example:  []
+POS:  n 
+
+Synsets =  Synset('para.n.04') [u'Rio_par\xe1', u'rio_Par\xe1']
+Para
+Para_River
+Definition:  an estuary in northern Brazil into which the Tocantins River flows
+Example:  []
+POS:  n 
+
+Synsets =  Synset('belem.n.01') [u'Santa_Maria_de_Bel\xe9m', u'Santa_maria_de_bel\xe9m']
+Belem
+Para
+Feliz_Lusitania
+Santa_Maria_de_Belem
+St._Mary_of_Bethlehem
+Definition:  port city in northern Brazil in the Amazon delta; main port and commercial center for the Amazon River basin
+Example:  []
+POS:  n 
+
+---------------------------------------
+Term to analyze:  define
+
+---------------------------------------
+Synsets =  Synset('specify.v.03') [u'especificar']
+specify
+define
+delineate
+delimit
+delimitate
+Definition:  determine the essential quality of
+Example:  []
+POS:  v 
+
+Synsets =  Synset('define.v.02') [u'definir']
+define
+Definition:  give a definition for the meaning of a word
+Example:  [u"Define `sadness'"]
+POS:  v 
+
+Synsets =  Synset('define.v.03') None
+define
+Definition:  determine the nature of
+Example:  [u'What defines a good wine?']
+POS:  v 
+
+Synsets =  Synset('define.v.04') [u'delinear']
+define
+delineate
+Definition:  show the form or outline of
+Example:  [u'The tree was clearly defined by the light', u'The camera could define the smallest object']
+POS:  v 
+
+Synsets =  Synset('specify.v.02') [u'especificar']
+specify
+set
+determine
+define
+fix
+limit
+Definition:  decide upon or fix definitely
+Example:  [u'fix the variables', u'specify the parameters']
+POS:  v 
+---------------------------------------
+Term to analyze:  Default
+
+---------------------------------------
+Synsets =  Synset('default.n.01') [u'n\xe3o_pagamento']
+default
+Definition:  loss due to not showing up
+Example:  [u'he lost the game by default']
+POS:  n 
+
+Synsets =  Synset('default.n.02') None
+default
+nonpayment
+nonremittal
+Definition:  act of failing to meet a financial obligation
+Example:  []
+POS:  n 
+
+Synsets =  Synset('nonpayment.n.02') [u'Morat\xf3ria']
+nonpayment
+default
+nonremittal
+Definition:  loss resulting from failure of a debt to be paid
+Example:  []
+POS:  n 
+
+Synsets =  Synset('default_option.n.01') None
+default_option
+default
+Definition:  an option that is selected automatically unless an alternative is specified
+Example:  []
+POS:  n 
+
+Synsets =  Synset('default.v.01') None
+default
+default_on
+Definition:  fail to pay up
+Example:  []
+POS:  v 
+
+---------------------------------------
+Term to analyze:  Academia
+
+---------------------------------------
+Synsets =  Synset('academia.n.01') None
+academia
+academe
+Definition:  the academic world
+Example:  []
+POS:  n 
+
+---------------------------------------
+Term to analyze:  Stakeholder
+
+---------------------------------------
+Synsets =  Synset('stakeholder.n.01') [u'parte_interessada']
+stakeholder
+Definition:  someone entrusted to hold the stakes for two or more persons betting against one another; must deliver the stakes to the winner
+Example:  []
+POS:  n 

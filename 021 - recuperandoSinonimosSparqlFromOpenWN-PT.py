@@ -8,6 +8,7 @@ in portuguese. It reads a file containing words and search for synonyms and defi
 from __future__ import division
 import datetime, nltk, re
 from SPARQLWrapper import SPARQLWrapper, JSON, XML
+from tabulate import tabulate
 
 time1 = datetime.datetime.now()
 ## Querying Fuseki server
@@ -27,9 +28,10 @@ def sparqlQuery(term):
     print '-'*50
     print 'Term to analyze: ', term 
     print '-'*50
-    print>>to_file, '-'*50
-    print>>to_file, 'Term to analyze: ', term 
-    print>>to_file, '-'*50
+#    print>>to_file, '-'*50
+#    print>>to_file, 'Term to analyze: ', term 
+#    print>>to_file, '-'*50
+    print>>to_file, '@', ',', term #tabulated version
 
     selection = '?label ?synonym ?gloss' 
     # condition = '''?s ?p ?o .
@@ -68,12 +70,14 @@ def sparqlQuery(term):
     # print result_set
     for i,result in enumerate(result_set["results"]["bindings"]) :
         print i,
-        print>>to_file, i,
+        print>>to_file, i, ',',
         for var in result_set["head"]["vars"] :
             if var in result:#to test whether all variables exists or not
                 t = re.sub(r'\bhttp?://[^- ]+\-[^- ]+\-', '', str(result[var]["value"])) # extracting the url from the result
-                print t, ':',
-                print>>to_file, t, ':',
+#                print t, ':',
+                print   '%-15s' % t, ':', #tabulated version
+#                print>>to_file, t, ':',
+                print>>to_file,'%-25s' % t, ',', #tabulated version
         print
         print>>to_file, ''
     return
@@ -86,7 +90,7 @@ def sparqlQuery(term):
 # only alter variables here
 #typeVar = 'test' #{Class, DatatypeProperty, ObjectProperty}
 #input_file1 = 'test_outClassProperty.txt'
-typeVar = 'Class' #{Class, DatatypeProperty, ObjectProperty}
+typeVar = 'ObjectProperty' #{Class, DatatypeProperty, ObjectProperty}
 input_file1 = 'out'+typeVar+'.txt'
 output_file = 'compared'+typeVar+'_OpenWNPT_synset.txt'
 ###############################################################################

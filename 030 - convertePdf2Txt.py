@@ -9,7 +9,7 @@ from pdfminer.converter import TextConverter
 from pdfminer.layout import LAParams
 from pdfminer.pdfpage import PDFPage
 from cStringIO import StringIO
-import datetime
+import datetime, sys
 
 time1 =datetime.datetime.now()
 
@@ -46,7 +46,7 @@ path = "/Users/marceloschiessl/RDF_text_project/corpus/WikiRisk/test"
 #pathOut = "/Users/marceloschiessl/RDF_text_project/corpus/WikiRisk/test"
 files = os.listdir(path)
 for f in files:
-    if f != '.DS_Store':
+    if f.endswith('.pdf'):
         convert_pdf_to_txt(f)
 
 print("\n End of process in %s" % (datetime.datetime.now() - time1))

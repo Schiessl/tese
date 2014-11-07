@@ -1,15 +1,319 @@
-Exposições , exposições , 0.9
-Sinistro , sinistro , 1.0
-Sinistro , ministro , 0.889
-Sinistro , sinistros , 0.889
-diabólico , not found , 0
-exibição , not found , 0
-exposição , exposição , 1.0
-exposição , reposição , 0.8
-exposição , imposição , 0.8
-exposição , suposição , 0.8
-infernal , internal , 0.889
+é conduzido por , not found , 0
+possui , possui , 1.0
+para , not found , 0
+define , define , 1.0
+pode ser reduzido , not found , 0
+pode danificar , not found , 0
+inclui , inclui , 1.0
+materializar como , not found , 0
+conduz a , not found , 0
+pode possuir , not found , 0
+impõe , impõe , 1.0
+atração , not found , 0
+atratividade , not found , 0
+deseja diminuir , not found , 0
+sobre , not found , 0
+envelope , not found , 0
+sobrescrito , not found , 0
+sobrecarta , not found , 0
+valoriza , not found , 0
+suscita , not found , 0
+estar ciente de , not found , 0
+para reduzir , not found , 0
+aumenta , aumenta , 1.0
+explora , not found , 0
+símbolo , not found , 0
+emblema , emblema , 1.0
+selo , selo , 1.0
+aceno , not found , 0
+Símbolos , not found , 0
+sinal , sinal , 1.0
+Simbolo , not found , 0
+localidade de atuação , not found , 0
+local de nascimento , not found , 0
+lugar de nascimento , not found , 0
+terra natal , not found , 0
+pessoa-chave , not found , 0
+cargo , cargo , 1.0
+ofício , not found , 0
+poder , not found , 0
+posição , not found , 0
+número de empregados , not found , 0
+tem nome , not found , 0
+descrição resumida , not found , 0
+iso3166 código de país , not found , 0
+data de morte , not found , 0
+indústria , indústria , 1.0
+manufatura , not found , 0
+empresa industrial , not found , 0
+lugar de fundação , not found , 0
+cidade de localização , not found , 0
+receita líquida , not found , 0
+tem endereço , not found , 0
+dados pessoais , not found , 0
+data de fundação , not found , 0
+número de localidades , not found , 0
+resumo , resumo , 1.0
+sumário , not found , 0
+revisão rápida , not found , 0
+resumo geral , not found , 0
+compêndio , not found , 0
+abreviação , not found , 0
+abreviatura , not found , 0
+compendio , not found , 0
+sinopse , not found , 0
+currículo , not found , 0
+fundado por , not found , 0
+iso4217 moeda , not found , 0
+dados institucionais , not found , 0
+data de nascimento , not found , 0
+aniversário , not found , 0
+Aniversario , not found , 0
+descrição , descrição , 1.0
+caraterização , not found , 0
+caracterização , not found , 0
+desenho , desenho , 1.0
+retrato , not found , 0
+ilustração , not found , 0
+Descrição , descrição , 1.0
+declaração , declaração , 1.0
+códigos internacionais , not found , 0
+evento inesperado , not found , 0
+detecção , not found , 0
+prevenção , prevenção , 1.0
+fornecedor , fornecedor , 1.0
+provedor , not found , 0
+vendedor , vendedor , 1.0
+comerciante , not found , 0
+resiliência , resiliência , 1.0
+elasticidade , not found , 0
+perda , perda , 1.0
+derrota , not found , 0
+desgaste , not found , 0
+perdas , perdas , 1.0
+prejuízo , prejuízo , 1.0
+privação , not found , 0
+forfeit , not found , 0
+ataque , not found , 0
+atentado , not found , 0
+assalto , not found , 0
+participante , participantes , 0.917
+participante , participante , 1.0
+jogador , not found , 0
+activo , not found , 0
+organização , organização , 1.0
+sociedade , sociedade , 1.0
+ordem , ordem , 1.0
+associações , associações , 1.0
+união , união , 1.0
+sistema , not found , 0
+estrutura , estrutura , 1.0
+estabelecimento , estabelecimentos , 0.933
+estabelecimento , estabelecimento , 1.0
+constituição , constituição , 1.0
+administração , administração , 1.0
+administração , -administração , 0.923
+método comportamental , not found , 0
+fraude , fraude , 1.0
+hoax , not found , 0
+trote , not found , 0
+risco de liquidez , not found , 0
 sinistro , sinistro , 1.0
-sinistro , sinistros , 0.889
-sinistro , ministro , 0.889
+Sinistro , sinistro , 1.0
+infernal , not found , 0
+diabólico , not found , 0
+default , default , 1.0
+risco setorial , not found , 0
+banco central , banco_central , 0.917
+Bancos centrais , bancos_centrais , 0.929
+Banco Central , banco_central , 0.917
+risco de crédito , not found , 0
+grupo de resposta , not found , 0
+exposição , exposição , 1.0
+exibição , not found , 0
 vulnerabilidade , vulnerabilidade , 1.0
+Exposições , exposições , 1.0
+contramedidas , not found , 0
+concentração , concentração , 1.0
+atenção , atenção , 1.0
+densidade , densidade , 1.0
+Massa volúmica , not found , 0
+Densidade , densidade , 1.0
+concentrações , not found , 0
+assiduidade , not found , 0
+infraestrutura , infra-estrutura , 0.929
+infraestrutura , infraestrutura , 1.0
+infra-estrutura , infra-estrutura , 1.0
+infra-estrutura , infraestrutura , 0.929
+infraestructura , infraestrutura , 0.929
+infra-estruturas , infra-estrutura , 0.933
+ativo , ativo , 1.0
+agencioso , not found , 0
+serelepe , not found , 0
+ligeiro , not found , 0
+lesto , not found , 0
+rápido , not found , 0
+lépido , not found , 0
+ágil , not found , 0
+regra , regra , 1.0
+regulamentos , regulamentos , 1.0
+regulamentos , regulamentou , 0.917
+regulamentos , regulamento , 0.909
+lei , lei , 1.0
+regulamento , regulamentos , 0.909
+regulamento , regulamentou , 0.909
+regulamento , regulamento , 1.0
+norma , norma , 1.0
+risco técnico , not found , 0
+limite , limite , 1.0
+limitação , limitação , 1.0
+fronteira , not found , 0
+borda , not found , 0
+aba , not found , 0
+perímetro , not found , 0
+fronteiras , not found , 0
+máximo , not found , 0
+delimitação , not found , 0
+margem , margem , 1.0
+margem interior , not found , 0
+máquina , not found , 0
+Máquina simples , not found , 0
+Máquinas Simples , not found , 0
+mecanismo , mecanismo , 1.0
+motor , not found , 0
+motores , not found , 0
+maquinaria , maquinaria , 1.0
+locomotivas , not found , 0
+locomotiva , not found , 0
+carro , carro , 1.0
+automóvel , not found , 0
+auto , auto , 1.0
+automovel , not found , 0
+viatura , not found , 0
+automóveis particulares , not found , 0
+automóveis , automóveis , 1.0
+veículo , not found , 0
+risco político , not found , 0
+especialistas , especialistas , 1.0
+especialistas , especialista , 0.917
+serviço , serviço , 1.0
+instalação , instalação , 1.0
+incumbência , not found , 0
+Serviço , serviço , 1.0
+lugar , not found , 0
+profissão , profissão , 1.0
+função , função , 1.0
+emprego , emprego , 1.0
+trabalho , not found , 0
+ocupação , not found , 0
+infraestrutura crítica f , not found , 0
+risco principal , not found , 0
+proteção , proteção , 1.0
+protecção , not found , 0
+mecenato , not found , 0
+defesa , defesa , 1.0
+desastre , desastre , 1.0
+flagelo , not found , 0
+calamidade , not found , 0
+catástrofe , not found , 0
+tragédia , not found , 0
+catástrofes , not found , 0
+cataclismo , not found , 0
+catástrofes naturais , not found , 0
+consultoria , consultoria , 1.0
+consultas , consultas , 1.0
+participante de mercado , not found , 0
+falha em transação , not found , 0
+risco operacional , risco_operacional , 0.938
+risco de compensação , not found , 0
+interrupção de operaçao , not found , 0
+roubo , roubo , 1.0
+roubar , not found , 0
+rapto , not found , 0
+furto , furto , 1.0
+espoliação , not found , 0
+rapina , not found , 0
+saque , saque , 1.0
+botim , not found , 0
+espólio , not found , 0
+pilhagem , not found , 0
+agente de ameaça , not found , 0
+pessoa jurídica , not found , 0
+risco social e ambiental , not found , 0
+líder da indústria , not found , 0
+opções de tecnologia , not found , 0
+correção , correção , 1.0
+emenda , emenda , 1.0
+precisão , precisão , 1.0
+acurácia , acurácia , 1.0
+exactidão , not found , 0
+exatidão , not found , 0
+rigor , not found , 0
+retificação , not found , 0
+produto , produto , 1.0
+mercadoria , mercadorias , 0.9
+mercadoria , mercadoria , 1.0
+artigo , artigo , 1.0
+objecto posto à venda , not found , 0
+fazenda , fazenda , 1.0
+bem , not found , 0
+Bens , bens , 1.0
+mercadorias , mercadorias , 1.0
+mercadorias , mercadoria , 0.9
+produtos , produtos , 1.0
+bens , bens , 1.0
+produção , produção , 1.0
+produções , not found , 0
+utensílio , not found , 0
+artefato , not found , 0
+fruto , fruto , 1.0
+risco legal , not found , 0
+pessoal , pessoal , 1.0
+companhia , companhia , 1.0
+elenco , elenco , 1.0
+estado-maior , not found , 0
+equipe de funcionários , not found , 0
+polícias , not found , 0
+polícia , not found , 0
+Policia , not found , 0
+Polícia , not found , 0
+vulgo , not found , 0
+povo , not found , 0
+nação , nação , 1.0
+gente , gente , 1.0
+Vulnerabilidade , vulnerabilidade , 1.0
+debilidade , not found , 0
+ameaça , ameaça , 1.0
+risco , risco , 1.0
+perigo , perigo , 1.0
+groźba , not found , 0
+Órgão regulador , not found , 0
+academia , not found , 0
+escola , not found , 0
+Ginásio , not found , 0
+ginásio , not found , 0
+mitigação do risco , not found , 0
+risco de contraparte , not found , 0
+linha , linha , 1.0
+traço , not found , 0
+listra , not found , 0
+oferta de serviço , not found , 0
+líderes funcionais , not found , 0
+diretriz , diretriz , 1.0
+directiva , not found , 0
+diretiva , not found , 0
+directivas , not found , 0
+pesquisa , pesquisa , 1.0
+sindicância , not found , 0
+investigação , not found , 0
+inquérito , not found , 0
+exploração , exploração , 1.0
+sondagens de opinião púb , not found , 0
+pesquisa de opinião , not found , 0
+enquête , not found , 0
+Pesquisa , pesquisa , 1.0
+pessoa física , pessoa_física , 0.917
+stakeholder , stakeholder , 1.0
+stakeholder , stakeholders , 0.909
+fator de risco , not found , 0
+parte confiável , not found , 0

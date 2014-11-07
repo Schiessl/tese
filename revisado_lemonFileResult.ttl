@@ -1,0 +1,2452 @@
+@base <http://www.example.org/lexico> .
+@prefix lemon: <http://lemon-model.net/lemon#> .
+@prefix :<http://www.exemplo.org/> .
+@prefix ontology:<http://www.semanticweb.org/ontologies/2014/8/risk_management#> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> . 
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :evento_inesperado .
+
+:evento_inesperado a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "evento inesperado"@pt ] ;
+    lemon:sense [ lemon:reference ontology:evento_inesperado ] .
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :detecção .
+
+:detecção a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "detecção"@pt ] ;
+    lemon:sense [ lemon:reference ontology:detecção ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :prevenção .
+
+:prevenção a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "prevenção"@pt ] ;
+    lemon:sense [ lemon:reference ontology:prevenção ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :fornecedor .
+
+:fornecedor a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "fornecedor"@pt ] ;
+    lemon:sense [ lemon:reference ontology:fornecedor ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :provedor .
+
+:provedor a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "provedor"@pt ] ;
+    lemon:sense [ lemon:reference ontology:fornecedor ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :vendedor .
+
+:vendedor a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "vendedor"@pt ] ;
+    lemon:sense [ lemon:reference ontology:fornecedor ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :comerciante .
+
+:comerciante a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "comerciante"@pt ] ;
+    lemon:sense [ lemon:reference ontology:fornecedor ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :resiliência .
+
+:resiliência a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "resiliência"@pt ] ;
+    lemon:sense [ lemon:reference ontology:resiliência ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :elasticidade .
+
+:elasticidade a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "elasticidade"@pt ] ;
+    lemon:sense [ lemon:reference ontology:resiliência ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :perda .
+
+:perda a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "perda"@pt ] ;
+    lemon:sense [ lemon:reference ontology:perda ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :derrota .
+
+:derrota a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "derrota"@pt ] ;
+    lemon:sense [ lemon:reference ontology:perda ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :desgaste .
+
+:desgaste a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "desgaste"@pt ] ;
+    lemon:sense [ lemon:reference ontology:perda ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :perdas .
+
+:perdas a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "perdas"@pt ] ;
+    lemon:sense [ lemon:reference ontology:perda ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :prejuízo .
+
+:prejuízo a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "prejuízo"@pt ] ;
+    lemon:sense [ lemon:reference ontology:perda ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :privação .
+
+:privação a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "privação"@pt ] ;
+    lemon:sense [ lemon:reference ontology:perda ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :ataque .
+
+:ataque a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "ataque"@pt ] ;
+    lemon:sense [ lemon:reference ontology:ataque ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :atentado .
+
+:atentado a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "atentado"@pt ] ;
+    lemon:sense [ lemon:reference ontology:ataque ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :assalto .
+
+:assalto a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "assalto"@pt ] ;
+    lemon:sense [ lemon:reference ontology:ataque ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :ataque .
+
+:ataque a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "ataque"@pt ] ;
+    lemon:sense [ lemon:reference ontology:ataque ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :participante .
+
+:participante a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "participante"@pt ] ;
+    lemon:sense [ lemon:reference ontology:participante ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :activo .
+
+:activo a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "activo"@pt ] ;
+    lemon:sense [ lemon:reference ontology:participante ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :organização .
+
+:organização a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "organização"@pt ] ;
+    lemon:sense [ lemon:reference ontology:organização ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :sociedade .
+
+:sociedade a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "sociedade"@pt ] ;
+    lemon:sense [ lemon:reference ontology:organização ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :ordem .
+
+:ordem a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "ordem"@pt ] ;
+    lemon:sense [ lemon:reference ontology:organização ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :associações .
+
+:associações a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "associações"@pt ] ;
+    lemon:sense [ lemon:reference ontology:organização ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :união .
+
+:união a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "união"@pt ] ;
+    lemon:sense [ lemon:reference ontology:organização ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :organização .
+
+:organização a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "organização"@pt ] ;
+    lemon:sense [ lemon:reference ontology:organização ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :sistema .
+
+:sistema a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "sistema"@pt ] ;
+    lemon:sense [ lemon:reference ontology:organização ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :organização .
+
+:organização a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "organização"@pt ] ;
+    lemon:sense [ lemon:reference ontology:organização ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :estrutura .
+
+:estrutura a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "estrutura"@pt ] ;
+    lemon:sense [ lemon:reference ontology:organização ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :estabelecimento .
+
+:estabelecimento a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "estabelecimento"@pt ] ;
+    lemon:sense [ lemon:reference ontology:organização ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :constituição .
+
+:constituição a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "constituição"@pt ] ;
+    lemon:sense [ lemon:reference ontology:organização ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :administração .
+
+:administração a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "administração"@pt ] ;
+    lemon:sense [ lemon:reference ontology:organização ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :método_comportamental .
+
+:método_comportamental a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "método comportamental"@pt ] ;
+    lemon:sense [ lemon:reference ontology:método_comportamental ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :fraude .
+
+:fraude a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "fraude"@pt ] ;
+    lemon:sense [ lemon:reference ontology:fraude ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :hoax .
+
+:hoax a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "hoax"@pt ] ;
+    lemon:sense [ lemon:reference ontology:fraude ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :trote .
+
+:trote a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "trote"@pt ] ;
+    lemon:sense [ lemon:reference ontology:fraude ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :risco_de_liquidez .
+
+:risco_de_liquidez a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "risco de liquidez"@pt ] ;
+    lemon:sense [ lemon:reference ontology:risco_de_liquidez ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :sinistro .
+
+:sinistro a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "sinistro"@pt ] ;
+    lemon:sense [ lemon:reference ontology:sinistro ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :default .
+
+:default a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "default"@pt ] ;
+    lemon:sense [ lemon:reference ontology:default ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :risco_setorial .
+
+:risco_setorial a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "risco setorial"@pt ] ;
+    lemon:sense [ lemon:reference ontology:risco_setorial ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :banco_central .
+
+:banco_central a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "banco central"@pt ] ;
+    lemon:sense [ lemon:reference ontology:banco_central ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :Bancos_centrais .
+
+:Bancos_centrais a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "Bancos centrais"@pt ] ;
+    lemon:sense [ lemon:reference ontology:banco_central ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :risco_de_crédito .
+
+:risco_de_crédito a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "risco de crédito"@pt ] ;
+    lemon:sense [ lemon:reference ontology:risco_de_crédito ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :grupo_de_resposta .
+
+:grupo_de_resposta a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "grupo de resposta"@pt ] ;
+    lemon:sense [ lemon:reference ontology:grupo_de_resposta ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :exposição .
+
+:exposição a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "exposição"@pt ] ;
+    lemon:sense [ lemon:reference ontology:exposição ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :exibição .
+
+:exibição a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "exibição"@pt ] ;
+    lemon:sense [ lemon:reference ontology:exposição ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :vulnerabilidade .
+
+:vulnerabilidade a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "vulnerabilidade"@pt ] ;
+    lemon:sense [ lemon:reference ontology:exposição ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :contramedidas .
+
+:contramedidas a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "contramedidas"@pt ] ;
+    lemon:sense [ lemon:reference ontology:contramedidas ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :concentração .
+
+:concentração a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "concentração"@pt ] ;
+    lemon:sense [ lemon:reference ontology:concentração ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :atenção .
+
+:atenção a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "atenção"@pt ] ;
+    lemon:sense [ lemon:reference ontology:concentração ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :densidade .
+
+:densidade a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "densidade"@pt ] ;
+    lemon:sense [ lemon:reference ontology:concentração ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :infraestrutura .
+
+:infraestrutura a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "infraestrutura"@pt ] ;
+    lemon:sense [ lemon:reference ontology:infraestrutura ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :ativo .
+
+:ativo a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "ativo"@pt ] ;
+    lemon:sense [ lemon:reference ontology:ativo ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :regra .
+
+:regra a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "regra"@pt ] ;
+    lemon:sense [ lemon:reference ontology:regra ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :regulamentos .
+
+:regulamentos a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "regulamentos"@pt ] ;
+    lemon:sense [ lemon:reference ontology:regra ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :lei .
+
+:lei a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "lei"@pt ] ;
+    lemon:sense [ lemon:reference ontology:regra ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :norma .
+
+:norma a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "norma"@pt ] ;
+    lemon:sense [ lemon:reference ontology:regra ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :risco_técnico .
+
+:risco_técnico a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "risco técnico"@pt ] ;
+    lemon:sense [ lemon:reference ontology:risco_técnico ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :limite .
+
+:limite a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "limite"@pt ] ;
+    lemon:sense [ lemon:reference ontology:limite ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :limitação .
+
+:limitação a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "limitação"@pt ] ;
+    lemon:sense [ lemon:reference ontology:limite ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :fronteira .
+
+:fronteira a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "fronteira"@pt ] ;
+    lemon:sense [ lemon:reference ontology:limite ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :fronteiras .
+
+:fronteiras a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "fronteiras"@pt ] ;
+    lemon:sense [ lemon:reference ontology:limite ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :máximo .
+
+:máximo a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "máximo"@pt ] ;
+    lemon:sense [ lemon:reference ontology:limite ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :delimitação .
+
+:delimitação a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "delimitação"@pt ] ;
+    lemon:sense [ lemon:reference ontology:limite ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :perímetro .
+
+:perímetro a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "perímetro"@pt ] ;
+    lemon:sense [ lemon:reference ontology:limite ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :margem .
+
+:margem a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "margem"@pt ] ;
+    lemon:sense [ lemon:reference ontology:limite ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :máquina .
+
+:máquina a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "máquina"@pt ] ;
+    lemon:sense [ lemon:reference ontology:máquina ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :risco_político .
+
+:risco_político a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "risco político"@pt ] ;
+    lemon:sense [ lemon:reference ontology:risco_político ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :especialistas .
+
+:especialistas a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "especialistas"@pt ] ;
+    lemon:sense [ lemon:reference ontology:especialistas ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :serviço .
+
+:serviço a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "serviço"@pt ] ;
+    lemon:sense [ lemon:reference ontology:serviço ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :instalação .
+
+:instalação a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "instalação"@pt ] ;
+    lemon:sense [ lemon:reference ontology:serviço ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :serviço .
+
+:serviço a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "serviço"@pt ] ;
+    lemon:sense [ lemon:reference ontology:serviço ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :incumbência .
+
+:incumbência a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "incumbência"@pt ] ;
+    lemon:sense [ lemon:reference ontology:serviço ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :profissão .
+
+:profissão a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "profissão"@pt ] ;
+    lemon:sense [ lemon:reference ontology:serviço ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :função .
+
+:função a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "função"@pt ] ;
+    lemon:sense [ lemon:reference ontology:serviço ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :serviço .
+
+:serviço a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "serviço"@pt ] ;
+    lemon:sense [ lemon:reference ontology:serviço ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :emprego .
+
+:emprego a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "emprego"@pt ] ;
+    lemon:sense [ lemon:reference ontology:serviço ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :ofício .
+
+:ofício a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "ofício"@pt ] ;
+    lemon:sense [ lemon:reference ontology:serviço ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :trabalho .
+
+:trabalho a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "trabalho"@pt ] ;
+    lemon:sense [ lemon:reference ontology:serviço ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :ocupação .
+
+:ocupação a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "ocupação"@pt ] ;
+    lemon:sense [ lemon:reference ontology:serviço ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :infraestrutura_crítica_financeira .
+
+:infraestrutura_crítica_financeira a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "infraestrutura crítica financeira"@pt ] ;
+    lemon:sense [ lemon:reference ontology:infraestrutura_crítica_financeira ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :risco_principal .
+
+:risco_principal a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "risco principal"@pt ] ;
+    lemon:sense [ lemon:reference ontology:risco_principal ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :proteção .
+
+:proteção a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "proteção"@pt ] ;
+    lemon:sense [ lemon:reference ontology:proteção ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :proteção .
+
+:proteção a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "proteção"@pt ] ;
+    lemon:sense [ lemon:reference ontology:proteção ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :mecenato .
+
+:mecenato a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "mecenato"@pt ] ;
+    lemon:sense [ lemon:reference ontology:proteção ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :defesa .
+
+:defesa a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "defesa"@pt ] ;
+    lemon:sense [ lemon:reference ontology:proteção ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :desastre .
+
+:desastre a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "desastre"@pt ] ;
+    lemon:sense [ lemon:reference ontology:desastre ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :flagelo .
+
+:flagelo a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "flagelo"@pt ] ;
+    lemon:sense [ lemon:reference ontology:desastre ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :calamidade .
+
+:calamidade a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "calamidade"@pt ] ;
+    lemon:sense [ lemon:reference ontology:desastre ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :catástrofe .
+
+:catástrofe a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "catástrofe"@pt ] ;
+    lemon:sense [ lemon:reference ontology:desastre ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :tragédia .
+
+:tragédia a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "tragédia"@pt ] ;
+    lemon:sense [ lemon:reference ontology:desastre ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :catástrofes .
+
+:catástrofes a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "catástrofes"@pt ] ;
+    lemon:sense [ lemon:reference ontology:desastre ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :cataclismo .
+
+:cataclismo a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "cataclismo"@pt ] ;
+    lemon:sense [ lemon:reference ontology:desastre ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :consultoria .
+
+:consultoria a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "consultoria"@pt ] ;
+    lemon:sense [ lemon:reference ontology:consultoria ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :consultoria .
+
+:consultoria a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "consultoria"@pt ] ;
+    lemon:sense [ lemon:reference ontology:consultoria ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :consultoria .
+
+:consultoria a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "consultoria"@pt ] ;
+    lemon:sense [ lemon:reference ontology:consultoria ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :consultas .
+
+:consultas a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "consultas"@pt ] ;
+    lemon:sense [ lemon:reference ontology:consultoria ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :participante_de_mercado_crítico .
+
+:participante_de_mercado_crítico a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "participante de mercado crítico"@pt ] ;
+    lemon:sense [ lemon:reference ontology:participante_de_mercado_crítico ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :falha_em_transação .
+
+:falha_em_transação a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "falha em transação"@pt ] ;
+    lemon:sense [ lemon:reference ontology:falha_em_transação ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :risco_operacional .
+
+:risco_operacional a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "risco operacional"@pt ] ;
+    lemon:sense [ lemon:reference ontology:risco_operacional ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :risco_de_compensação .
+
+:risco_de_compensação a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "risco de compensação"@pt ] ;
+    lemon:sense [ lemon:reference ontology:risco_de_compensação ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :interrupção_de_operaçao_significativa .
+
+:interrupção_de_operaçao_significativa a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "interrupção de operaçao significativa"@pt ] ;
+    lemon:sense [ lemon:reference ontology:interrupção_de_operaçao_significativa ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :roubo .
+
+:roubo a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "roubo"@pt ] ;
+    lemon:sense [ lemon:reference ontology:roubo ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :roubo .
+
+:roubo a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "roubo"@pt ] ;
+    lemon:sense [ lemon:reference ontology:roubo ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :rapto .
+
+:rapto a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "rapto"@pt ] ;
+    lemon:sense [ lemon:reference ontology:roubo ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :furto .
+
+:furto a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "furto"@pt ] ;
+    lemon:sense [ lemon:reference ontology:roubo ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :espoliação .
+
+:espoliação a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "espoliação"@pt ] ;
+    lemon:sense [ lemon:reference ontology:roubo ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :assalto .
+
+:assalto a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "assalto"@pt ] ;
+    lemon:sense [ lemon:reference ontology:roubo ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :roubo .
+
+:roubo a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "roubo"@pt ] ;
+    lemon:sense [ lemon:reference ontology:roubo ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :rapina .
+
+:rapina a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "rapina"@pt ] ;
+    lemon:sense [ lemon:reference ontology:roubo ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :saque .
+
+:saque a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "saque"@pt ] ;
+    lemon:sense [ lemon:reference ontology:roubo ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :botim .
+
+:botim a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "botim"@pt ] ;
+    lemon:sense [ lemon:reference ontology:roubo ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :espólio .
+
+:espólio a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "espólio"@pt ] ;
+    lemon:sense [ lemon:reference ontology:roubo ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :pilhagem .
+
+:pilhagem a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "pilhagem"@pt ] ;
+    lemon:sense [ lemon:reference ontology:roubo ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :agente_de_ameaça .
+
+:agente_de_ameaça a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "agente de ameaça"@pt ] ;
+    lemon:sense [ lemon:reference ontology:agente_de_ameaça ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :pessoa_jurídica .
+
+:pessoa_jurídica a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "pessoa jurídica"@pt ] ;
+    lemon:sense [ lemon:reference ontology:pessoa_jurídica ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :risco_social_e_ambiental .
+
+:risco_social_e_ambiental a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "risco social e ambiental"@pt ] ;
+    lemon:sense [ lemon:reference ontology:risco_social_e_ambiental ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :líder_da_indústria .
+
+:líder_da_indústria a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "líder da indústria"@pt ] ;
+    lemon:sense [ lemon:reference ontology:líder_da_indústria ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :opções_de_tecnologia .
+
+:opções_de_tecnologia a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "opções de tecnologia"@pt ] ;
+    lemon:sense [ lemon:reference ontology:opções_de_tecnologia ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :correção .
+
+:correção a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "correção"@pt ] ;
+    lemon:sense [ lemon:reference ontology:correção ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :emenda .
+
+:emenda a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "emenda"@pt ] ;
+    lemon:sense [ lemon:reference ontology:correção ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :retificação .
+
+:retificação a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "retificação"@pt ] ;
+    lemon:sense [ lemon:reference ontology:correção ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :correção .
+
+:correção a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "correção"@pt ] ;
+    lemon:sense [ lemon:reference ontology:correção ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :produto .
+
+:produto a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "produto"@pt ] ;
+    lemon:sense [ lemon:reference ontology:produto ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :mercadoria .
+
+:mercadoria a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "mercadoria"@pt ] ;
+    lemon:sense [ lemon:reference ontology:produto ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :artigo .
+
+:artigo a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "artigo"@pt ] ;
+    lemon:sense [ lemon:reference ontology:produto ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :objecto_posto_à_venda .
+
+:objecto_posto_à_venda a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "objecto posto à venda"@pt ] ;
+    lemon:sense [ lemon:reference ontology:produto ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :fazenda .
+
+:fazenda a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "fazenda"@pt ] ;
+    lemon:sense [ lemon:reference ontology:produto ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :bem .
+
+:bem a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "bem"@pt ] ;
+    lemon:sense [ lemon:reference ontology:produto ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :mercadoria .
+
+:mercadoria a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "mercadoria"@pt ] ;
+    lemon:sense [ lemon:reference ontology:produto ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :artigo .
+
+:artigo a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "artigo"@pt ] ;
+    lemon:sense [ lemon:reference ontology:produto ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :mercadorias .
+
+:mercadorias a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "mercadorias"@pt ] ;
+    lemon:sense [ lemon:reference ontology:produto ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :produtos .
+
+:produtos a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "produtos"@pt ] ;
+    lemon:sense [ lemon:reference ontology:produto ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :bens .
+
+:bens a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "bens"@pt ] ;
+    lemon:sense [ lemon:reference ontology:produto ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :produtos .
+
+:produtos a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "produtos"@pt ] ;
+    lemon:sense [ lemon:reference ontology:produto ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :produção .
+
+:produção a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "produção"@pt ] ;
+    lemon:sense [ lemon:reference ontology:produto ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :produções .
+
+:produções a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "produções"@pt ] ;
+    lemon:sense [ lemon:reference ontology:produto ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :utensílio .
+
+:utensílio a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "utensílio"@pt ] ;
+    lemon:sense [ lemon:reference ontology:produto ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :artefato .
+
+:artefato a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "artefato"@pt ] ;
+    lemon:sense [ lemon:reference ontology:produto ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :fruto .
+
+:fruto a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "fruto"@pt ] ;
+    lemon:sense [ lemon:reference ontology:produto ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :risco_legal .
+
+:risco_legal a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "risco legal"@pt ] ;
+    lemon:sense [ lemon:reference ontology:risco_legal ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :pessoal .
+
+:pessoal a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "pessoal"@pt ] ;
+    lemon:sense [ lemon:reference ontology:pessoal ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :companhia .
+
+:companhia a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "companhia"@pt ] ;
+    lemon:sense [ lemon:reference ontology:pessoal ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :pessoal .
+
+:pessoal a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "pessoal"@pt ] ;
+    lemon:sense [ lemon:reference ontology:pessoal ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :elenco .
+
+:elenco a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "elenco"@pt ] ;
+    lemon:sense [ lemon:reference ontology:pessoal ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :equipe_de_funcionários .
+
+:equipe_de_funcionários a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "equipe de funcionários"@pt ] ;
+    lemon:sense [ lemon:reference ontology:pessoal ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :gente .
+
+:gente a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "gente"@pt ] ;
+    lemon:sense [ lemon:reference ontology:pessoal ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :vulnerabilidade .
+
+:vulnerabilidade a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "vulnerabilidade"@pt ] ;
+    lemon:sense [ lemon:reference ontology:vulnerabilidade ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :debilidade .
+
+:debilidade a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "debilidade"@pt ] ;
+    lemon:sense [ lemon:reference ontology:vulnerabilidade ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :exposição .
+
+:exposição a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "exposição"@pt ] ;
+    lemon:sense [ lemon:reference ontology:vulnerabilidade ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :ameaça .
+
+:ameaça a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "ameaça"@pt ] ;
+    lemon:sense [ lemon:reference ontology:ameaça ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :risco .
+
+:risco a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "risco"@pt ] ;
+    lemon:sense [ lemon:reference ontology:ameaça ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :perigo .
+
+:perigo a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "perigo"@pt ] ;
+    lemon:sense [ lemon:reference ontology:ameaça ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :Órgão_regulador .
+
+:Órgão_regulador a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "Órgão regulador"@pt ] ;
+    lemon:sense [ lemon:reference ontology:Órgão_regulador ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :academia .
+
+:academia a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "academia"@pt ] ;
+    lemon:sense [ lemon:reference ontology:academia ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :escola .
+
+:escola a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "escola"@pt ] ;
+    lemon:sense [ lemon:reference ontology:academia ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :mitigação_do_risco .
+
+:mitigação_do_risco a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "mitigação do risco"@pt ] ;
+    lemon:sense [ lemon:reference ontology:mitigação_do_risco ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :risco_de_contraparte .
+
+:risco_de_contraparte a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "risco de contraparte"@pt ] ;
+    lemon:sense [ lemon:reference ontology:risco_de_contraparte ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :risco .
+
+:risco a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "risco"@pt ] ;
+    lemon:sense [ lemon:reference ontology:risco ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :perigo .
+
+:perigo a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "perigo"@pt ] ;
+    lemon:sense [ lemon:reference ontology:risco ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :ameaça .
+
+:ameaça a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "ameaça"@pt ] ;
+    lemon:sense [ lemon:reference ontology:risco ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :risco .
+
+:risco a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "risco"@pt ] ;
+    lemon:sense [ lemon:reference ontology:risco ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :oferta_de_serviço .
+
+:oferta_de_serviço a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "oferta de serviço"@pt ] ;
+    lemon:sense [ lemon:reference ontology:oferta_de_serviço ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :líderes_funcionais .
+
+:líderes_funcionais a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "líderes funcionais"@pt ] ;
+    lemon:sense [ lemon:reference ontology:líderes_funcionais ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :diretriz .
+
+:diretriz a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "diretriz"@pt ] ;
+    lemon:sense [ lemon:reference ontology:diretriz ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :diretiva .
+
+:diretiva a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "diretiva"@pt ] ;
+    lemon:sense [ lemon:reference ontology:diretriz ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :directivas .
+
+:directivas a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "directivas"@pt ] ;
+    lemon:sense [ lemon:reference ontology:diretriz ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :pesquisa .
+
+:pesquisa a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "pesquisa"@pt ] ;
+    lemon:sense [ lemon:reference ontology:pesquisa ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :sindicância .
+
+:sindicância a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "sindicância"@pt ] ;
+    lemon:sense [ lemon:reference ontology:pesquisa ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :investigação .
+
+:investigação a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "investigação"@pt ] ;
+    lemon:sense [ lemon:reference ontology:pesquisa ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :inquérito .
+
+:inquérito a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "inquérito"@pt ] ;
+    lemon:sense [ lemon:reference ontology:pesquisa ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :exploração .
+
+:exploração a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "exploração"@pt ] ;
+    lemon:sense [ lemon:reference ontology:pesquisa ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :inquérito .
+
+:inquérito a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "inquérito"@pt ] ;
+    lemon:sense [ lemon:reference ontology:pesquisa ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :pessoa_física .
+
+:pessoa_física a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "pessoa física"@pt ] ;
+    lemon:sense [ lemon:reference ontology:pessoa_física ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :stakeholder .
+
+:stakeholder a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "stakeholder"@pt ] ;
+    lemon:sense [ lemon:reference ontology:stakeholder ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :fator_de_risco .
+
+:fator_de_risco a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "fator de risco"@pt ] ;
+    lemon:sense [ lemon:reference ontology:fator_de_risco ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :parte_confiável .
+
+:parte_confiável a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "parte confiável"@pt ] ;
+    lemon:sense [ lemon:reference ontology:parte_confiável ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :é_conduzido_por .
+
+:é_conduzido_por a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:collocation ;
+    lemon:canonicalForm [ lemon:writtenRep "é conduzido por"@pt ] ;
+    lemon:sense [ lemon:reference ontology:é_conduzido_por ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :possui .
+
+:possui a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:verb ;
+    lemon:canonicalForm [ lemon:writtenRep "possui"@pt ] ;
+    lemon:sense [ lemon:reference ontology:possui ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :para .
+
+:para a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:preposition ;
+    lemon:canonicalForm [ lemon:writtenRep "para"@pt ] ;
+    lemon:sense [ lemon:reference ontology:para ] .
+    
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :define .
+
+:define a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:verb ;
+    lemon:canonicalForm [ lemon:writtenRep "define"@pt ] ;
+    lemon:sense [ lemon:reference ontology:define ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :pode_ser_reduzido_por .
+
+:pode_ser_reduzido_por a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:collocation ;
+    lemon:canonicalForm [ lemon:writtenRep "pode ser reduzido por"@pt ] ;
+    lemon:sense [ lemon:reference ontology:pode_ser_reduzido_por ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :pode_danificar .
+
+:pode_danificar a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:collocation ;
+    lemon:canonicalForm [ lemon:writtenRep "pode danificar"@pt ] ;
+    lemon:sense [ lemon:reference ontology:pode_danificar ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :inclui .
+
+:inclui a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:verbo ;
+    lemon:canonicalForm [ lemon:writtenRep "inclui"@pt ] ;
+    lemon:sense [ lemon:reference ontology:inclui ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :materializar_como .
+
+:materializar_como a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:collocation ;
+    lemon:canonicalForm [ lemon:writtenRep "materializar como"@pt ] ;
+    lemon:sense [ lemon:reference ontology:materializar_como ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :conduz_a .
+
+:conduz_a a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:collocation ;
+    lemon:canonicalForm [ lemon:writtenRep "conduz a"@pt ] ;
+    lemon:sense [ lemon:reference ontology:conduz_a ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :pode_possuir .
+
+:pode_possuir a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:collocation ;
+    lemon:canonicalForm [ lemon:writtenRep "pode possuir"@pt ] ;
+    lemon:sense [ lemon:reference ontology:pode_possuir ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :impõe .
+
+:impõe a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:verb ;
+    lemon:canonicalForm [ lemon:writtenRep "impõe"@pt ] ;
+    lemon:sense [ lemon:reference ontology:impõe ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :atração .
+
+:atração a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "atração"@pt ] ;
+    lemon:sense [ lemon:reference ontology:atração ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :atratividade .
+
+:atratividade a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "atratividade"@pt ] ;
+    lemon:sense [ lemon:reference ontology:atração ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :deseja_diminuir .
+
+:deseja_diminuir a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:collocation ;
+    lemon:canonicalForm [ lemon:writtenRep "deseja diminuir"@pt ] ;
+    lemon:sense [ lemon:reference ontology:deseja_diminuir ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :sobre .
+
+:sobre a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:preposition ;
+    lemon:canonicalForm [ lemon:writtenRep "sobre"@pt ] ;
+    lemon:sense [ lemon:reference ontology:sobre ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :valoriza .
+
+:valoriza a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:verb ;
+    lemon:canonicalForm [ lemon:writtenRep "valoriza"@pt ] ;
+    lemon:sense [ lemon:reference ontology:valoriza ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :suscita .
+
+:suscita a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:verb ;
+    lemon:canonicalForm [ lemon:writtenRep "suscita"@pt ] ;
+    lemon:sense [ lemon:reference ontology:suscita ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :estar_ciente_de .
+
+:estar_ciente_de a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:collocation ;
+    lemon:canonicalForm [ lemon:writtenRep "estar ciente de"@pt ] ;
+    lemon:sense [ lemon:reference ontology:estar_ciente_de ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :para_reduzir .
+
+:para_reduzir a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:collocation ;
+    lemon:canonicalForm [ lemon:writtenRep "para reduzir"@pt ] ;
+    lemon:sense [ lemon:reference ontology:para_reduzir ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :aumenta .
+
+:aumenta a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:verb ;
+    lemon:canonicalForm [ lemon:writtenRep "aumenta"@pt ] ;
+    lemon:sense [ lemon:reference ontology:aumenta ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :explora .
+
+:explora a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:verb ;
+    lemon:canonicalForm [ lemon:writtenRep "explora"@pt ] ;
+    lemon:sense [ lemon:reference ontology:explora ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :local_de_nascimento .
+
+:local_de_nascimento a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "local de nascimento"@pt ] ;
+    lemon:sense [ lemon:reference ontology:local_de_nascimento ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :lugar_de_nascimento .
+
+:lugar_de_nascimento a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "lugar de nascimento"@pt ] ;
+    lemon:sense [ lemon:reference ontology:local_de_nascimento ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :terra_natal .
+
+:terra_natal a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "terra natal"@pt ] ;
+    lemon:sense [ lemon:reference ontology:local_de_nascimento ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :local_de_nascimento .
+
+:local_de_nascimento a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "local de nascimento"@pt ] ;
+    lemon:sense [ lemon:reference ontology:local_de_nascimento ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :pessoa-chave .
+
+:pessoa-chave a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "pessoa-chave"@pt ] ;
+    lemon:sense [ lemon:reference ontology:pessoa-chave ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :cargo .
+
+:cargo a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "cargo"@pt ] ;
+    lemon:sense [ lemon:reference ontology:cargo ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :ofício .
+
+:ofício a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "ofício"@pt ] ;
+    lemon:sense [ lemon:reference ontology:cargo ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :poder .
+
+:poder a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "poder"@pt ] ;
+    lemon:sense [ lemon:reference ontology:cargo ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :cargo .
+
+:cargo a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "cargo"@pt ] ;
+    lemon:sense [ lemon:reference ontology:cargo ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :posição .
+
+:posição a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "posição"@pt ] ;
+    lemon:sense [ lemon:reference ontology:cargo ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :número_de_empregados .
+
+:número_de_empregados a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "número de empregados"@pt ] ;
+    lemon:sense [ lemon:reference ontology:número_de_empregados ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :tem_nome .
+
+:tem_nome a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "tem nome"@pt ] ;
+    lemon:sense [ lemon:reference ontology:tem_nome ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :descrição_resumida .
+
+:descrição_resumida a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "descrição resumida"@pt ] ;
+    lemon:sense [ lemon:reference ontology:descrição_resumida ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :iso3166_código_de_país .
+
+:iso3166_código_de_país a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "iso3166 código de país"@pt ] ;
+    lemon:sense [ lemon:reference ontology:iso3166_código_de_país ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :data_de_morte .
+
+:data_de_morte a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "data de morte"@pt ] ;
+    lemon:sense [ lemon:reference ontology:data_de_morte ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :indústria .
+
+:indústria a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "indústria"@pt ] ;
+    lemon:sense [ lemon:reference ontology:indústria ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :indústria .
+
+:indústria a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "indústria"@pt ] ;
+    lemon:sense [ lemon:reference ontology:indústria ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :manufatura .
+
+:manufatura a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "manufatura"@pt ] ;
+    lemon:sense [ lemon:reference ontology:indústria ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :empresa_industrial .
+
+:empresa_industrial a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "empresa industrial"@pt ] ;
+    lemon:sense [ lemon:reference ontology:indústria ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :lugar_de_fundação .
+
+:lugar_de_fundação a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "lugar de fundação"@pt ] ;
+    lemon:sense [ lemon:reference ontology:lugar_de_fundação ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :cidade_de_localização .
+
+:cidade_de_localização a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "cidade de localização"@pt ] ;
+    lemon:sense [ lemon:reference ontology:cidade_de_localização ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :receita_líquida .
+
+:receita_líquida a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "receita líquida"@pt ] ;
+    lemon:sense [ lemon:reference ontology:receita_líquida ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :tem_endereço .
+
+:tem_endereço a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "tem endereço"@pt ] ;
+    lemon:sense [ lemon:reference ontology:tem_endereço ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :dados_pessoais .
+
+:dados_pessoais a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "dados pessoais"@pt ] ;
+    lemon:sense [ lemon:reference ontology:dados_pessoais ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :data_de_fundação .
+
+:data_de_fundação a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "data de fundação"@pt ] ;
+    lemon:sense [ lemon:reference ontology:data_de_fundação ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :número_de_localidades .
+
+:número_de_localidades a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "número de localidades"@pt ] ;
+    lemon:sense [ lemon:reference ontology:número_de_localidades ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :resumo .
+
+:resumo a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "resumo"@pt ] ;
+    lemon:sense [ lemon:reference ontology:resumo ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :sumário .
+
+:sumário a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "sumário"@pt ] ;
+    lemon:sense [ lemon:reference ontology:resumo ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :revisão_rápida .
+
+:revisão_rápida a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "revisão rápida"@pt ] ;
+    lemon:sense [ lemon:reference ontology:resumo ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :resumo_geral .
+
+:resumo_geral a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "resumo geral"@pt ] ;
+    lemon:sense [ lemon:reference ontology:resumo ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :compêndio .
+
+:compêndio a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "compêndio"@pt ] ;
+    lemon:sense [ lemon:reference ontology:resumo ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :abreviação .
+
+:abreviação a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "abreviação"@pt ] ;
+    lemon:sense [ lemon:reference ontology:resumo ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :abreviatura .
+
+:abreviatura a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "abreviatura"@pt ] ;
+    lemon:sense [ lemon:reference ontology:resumo ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :sinopse .
+
+:sinopse a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "sinopse"@pt ] ;
+    lemon:sense [ lemon:reference ontology:resumo ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :currículo .
+
+:currículo a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "currículo"@pt ] ;
+    lemon:sense [ lemon:reference ontology:resumo ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :fundado_por .
+
+:fundado_por a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:collocation ;
+    lemon:canonicalForm [ lemon:writtenRep "fundado por"@pt ] ;
+    lemon:sense [ lemon:reference ontology:fundado_por ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :iso4217_moeda .
+
+:iso4217_moeda a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "iso4217 moeda"@pt ] ;
+    lemon:sense [ lemon:reference ontology:iso4217_moeda ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :dados_institucionais .
+
+:dados_institucionais a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "dados institucionais"@pt ] ;
+    lemon:sense [ lemon:reference ontology:dados_institucionais ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :data_de_nascimento .
+
+:data_de_nascimento a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "data de nascimento"@pt ] ;
+    lemon:sense [ lemon:reference ontology:data_de_nascimento ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :aniversário .
+
+:aniversário a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "aniversário"@pt ] ;
+    lemon:sense [ lemon:reference ontology:data_de_nascimento ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :data_de_nascimento .
+
+:data_de_nascimento a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "data de nascimento"@pt ] ;
+    lemon:sense [ lemon:reference ontology:data_de_nascimento ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :descrição .
+
+:descrição a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "descrição"@pt ] ;
+    lemon:sense [ lemon:reference ontology:descrição ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :caraterização .
+
+:caraterização a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "caraterização"@pt ] ;
+    lemon:sense [ lemon:reference ontology:descrição ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :ilustração .
+
+:ilustração a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "ilustração"@pt ] ;
+    lemon:sense [ lemon:reference ontology:descrição ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :declaração .
+
+:declaração a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "declaração"@pt ] ;
+    lemon:sense [ lemon:reference ontology:descrição ] .
+    
+
+:riscoFinanceiro a lemon:Lexicon;
+  lemon:language "pt" ;
+  lemon:entry :códigos_internacionais .
+
+:códigos_internacionais a lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [ lemon:writtenRep "códigos internacionais"@pt ] ;
+    lemon:sense [ lemon:reference ontology:códigos_internacionais ] .

@@ -1,64 +1,78 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-""" Printing the output file in RDF - lemon standard
+""" This program reads directories and subdirs search for html files
+to convert to plain text. All you need need is to entry the top dir
+and then execute the program. Every html file is converted to txt file
+and saved in the same directory.
 """
-prefix = '''
-@base <http://www.example.org/lexico> .
-@prefix lemon: <http://lemon-model.net/lemon#> .
-@prefix :<http://www.exemplo.org/> .
-@prefix ontology:<http://www.exemplo.org/ontology#> .
-'''
-description = '''
-:meuLexico a lemon:Lexico;
-  lemon:language "pt" ;
-  lemon:entrada :risco,  :perigo, :ameaça .
-'''
-def lexEntry(termCanonic, termVariant, termOnto):
-    lexicalEntry = '''
-:risco a lemon:LexicalEntry ;
-  lemon:canonicalForm [ lemon:writtenRep "'''+termCanonic+'''"@pt ] ;
-  lemon:otherForm [ lemon:writtenRep "'''+termVariant+'''"@pt ] ;
-  lemon:sense [ lemon:referencia ontology:"'''+termOnto+'''" ] .
-    '''
-    return lexicalEntry
-# :perigo a lemon:EntradaLexical ;
-#   lemon:canonicalForm [ lemon:writtenRep "perigo"@pt ] ;
-#   lemon:otherForm [ lemon:writtenRep "perigos"@pt ] ;
-#   lemon:sense [ lemon:referencia ontology:risco ] .
+from __future__ import print_function, division
+import pysolr
+#from mysolr import Solr
+import os
+import datetime
 
-print prefix + description 
-print lexEntry('risco','riscos','risco')
-print lexEntry('perigo','perigos','risco')
-print lexEntry('ameaça','ameaças','risco')
+time1 =datetime.datetime.now()
+##############################################################################
+# Lots of example on how to use pysolr
+#https://code.google.com/p/pysolr/source/browse/trunk/pysolr.py
 
-'''Exemplo do site http://lemon-model.net/lexica/uby/ow_eng/OW_eng_LexicalEntry_14548.ttl
+#solr = pysolr.Solr('http://localhost:8983/solr/simple/')
+#solr = pysolr.Solr('http://localhost:8983/solr/pdfs/')
+solr = pysolr.Solr('http://localhost:8983/solr/pdfsTest/')
 
-@base <http://lemon-model.net/lexica/uby/ow_eng/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix lemon: <../../../lemon#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix lexinfo2: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix lexinfo: <http://lexinfo.net/ontology/2.0/lexinfo#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix uby: <http://purl.org/olia/ubyCat.owl#> .
-@prefix ubywn: <../wn/> .
-@prefix ubyfn: <../fn/> .
-@prefix ubyvn: <../vn/> .
-@prefix ubyow_eng: <> .
-@prefix ubyow_deu: <../ow_deu/> .
-@prefix ubywktDE: <../wktDE/> .
+#solr.add([
+#    {
+#        "id": 1,
+#        "title": "A test document",
+#    },
+#    {
+#        "id": 2,
+#        "title": "The Banana: Tasty or Dangerous?",
+#    },
+#])
 
-<>
-    dcterms:license <http://creativecommons.org/licenses/by-sa/3.0/> ;
-    dcterms:source <http://www.omegawiki.org> .
+# You can optimize the index when it gets fragmented, for better speed.
+#solr.optimize()
 
-ubyow_eng:OW_eng_LexicalEntry_14548
-    lemon:canonicalForm <OW_eng_LexicalEntry_14548#CanonicalForm> ;
-    lemon:sense ubyow_eng:OW_eng_Sense_16190 ;
-    a lemon:LexicalEntry .
+# Later, searching is easy. In the simple case, just a plain Lucene-style
+# query is fine.
+results = solr.search('*:*')
+#results = solr.search('bananas')
 
-<OW_eng_LexicalEntry_14548#CanonicalForm>
-    lemon:writtenRep "risk"@eng ;
-    a lemon:Form .'''
+# The ``Results`` object stores total results found, by default the top
+# ten most relevant results and any additional data like
+# facets/highlighting/spelling/etc.
+#print("Saw {0} result(s).".format(len(results)))
+#
+## Just loop over it to access the results.
+#for result in results:
+##    print("The title is '{0}'.".format(result['uid']))
+#    print("The resiçt is :", result)
+
+# For a more advanced query, say involving highlighting, you can pass
+# additional options to Solr.
+results = solr.search('banco', **{
+    'hl': 'true',
+    'hl.fragsize': 30,
+})
+
+print("Saw {0} result(s).".format(len(results)))
+
+# Just loop over it to access the results.
+for i,result in enumerate(results):
+##    print(result)
+    print(str(i)+" The title is '{0}'.".format(result['uid'])) #for PDFS core
+#    print("The title is '{0}'.".format(result['title'])) #for simple core
+
+# You can also perform More Like This searches, if your Solr is configured
+# correctly.
+#similar = solr.more_like_this(q='id:2', mltfl='text')#not working
+
+# Finally, you can delete either individual documents...
+#solr.delete(id=1)
+
+# ...or all documents.
+print ('\nDeletion response:\n', solr.delete(q='*:*'))
+
+##############################################################################
+print("\nEnd of process in %s" % (datetime.datetime.now() - time1))

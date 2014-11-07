@@ -1,11 +1,536 @@
-Sinistro 
-sinistro 
-infernal 
-sinistro 
-diabólico
+é conduzido por
+possui
+para
+para              
+define
+pode ser reduzido 
+pode danificar
+inclui
+materializar como
+conduz a
+pode possuir
+impõe
+atração
+atração           
+atração           
+atração           
+atração           
+atração           
+atratividade      
+atração           
+deseja diminuir
+sobre
+envelope          
+sobrescrito       
+sobre             
+sobrecarta        
+valoriza
+suscita
+estar ciente de
+para reduzir
+aumenta
+explora
+
+símbolo
+símbolo                
+emblema                
+selo                   
+símbolo                
+símbolo                
+aceno                  
+emblema                
+Símbolos               
+símbolo                
+sinal                  
+ Simbolo               
+localidade de atuação
+local de nascimento
+lugar de nascimento    
+terra natal            
+local de nascimento    
+pessoa-chave
+cargo
+ofício                 
+poder                  
+cargo                  
+cargo                  
+posição                
+número de empregados
+tem nome
+descrição resumida
+iso3166 código de país
+data de morte
+indústria
+indústria              
+manufatura             
+empresa industrial     
+indústria              
+lugar de fundação
+cidade de localização
+receita líquida
+tem endereço
+dados pessoais
+data de fundação
+número de localidades
+resumo
+resumo                 
+sumário                
+revisão rápida         
+resumo geral           
+resumo                 
+resumo                 
+sumário                
+resumo                 
+sumário                
+compêndio              
+ resumo                
+ resumo                
+ sumário               
+ abreviação            
+ abreviatura           
+ sumário               
+ compêndio             
+ resumo                
+ compendio             
+ resumo                
+ sinopse               
+ sumário               
+ resumo                
+ sumário               
+ currículo             
+fundado por
+iso4217 moeda
+dados institucionais
+data de nascimento
+aniversário            
+Aniversario            
+data de nascimento     
+aniversário            
+data de nascimento     
+descrição
+descrição              
+caraterização          
+caracterização         
+descrição              
+desenho                
+descrição              
+retrato                
+ilustração             
+descrição              
+descrição              
+ descrição             
+ Descrição             
+ declaração            
+códigos internacionais
+
+evento inesperado
+detecção
+detecção                
+detecção                
+detecção                
+prevenção
+prevenção               
+fornecedor
+fornecedor              
+provedor                
+vendedor                
+fornecedor              
+comerciante             
+resiliência
+elasticidade            
+resiliência             
+perda
+derrota                 
+perda                   
+perda                   
+desgaste                
+perdas                  
+prejuízo                
+perda                   
+perda                   
+privação                
+prejuízo                
+ perda                  
+ forfeit                
+ perda                  
+ataque
+ataque                  
+atentado                
+assalto                 
+ataque                  
+ataque                  
+ataque                  
+participante
+participante            
+participante            
+jogador                 
+participante            
+activo                  
+organização
+organização             
+organização             
+sociedade               
+ordem                   
+associações             
+união                   
+organização             
+sistema                 
+organização             
+estrutura               
+ organização            
+ ordem                  
+ sistema                
+ estabelecimento        
+ constituição           
+ organização            
+ organização            
+ administração          
+ organização            
+ organização            
+método comportamental
+fraude
+fraude                  
+hoax                    
+trote                   
+risco de liquidez
+sinistro
+Sinistro                
+sinistro                
+infernal                
+sinistro                
+diabólico               
+default
+risco setorial
+banco central
+Bancos centrais         
+banco central           
+Banco Central           
+risco de crédito
+grupo de resposta
 exposição
-exibição 
-exposição
+exposição               
+exibição                
+exposição               
+vulnerabilidade         
+exposição               
+exposição               
+exposição               
+Exposições              
+contramedidas
+concentração
+concentração            
+concentração            
+concentração            
+concentração            
+atenção                 
+densidade               
+Massa volúmica          
+Densidade               
+concentração            
+concentração            
+ concentração           
+ concentrações          
+ densidade              
+ concentração           
+ concentração           
+ assiduidade            
+infraestrutura
+infra-estrutura         
+infraestrutura          
+infraestructura         
+infraestructura         
+infraestrutura          
+infra-estrutura         
+infra-estruturas        
+ativo
+ativo                   
+agencioso               
+ativo                   
+serelepe                
+ligeiro                 
+lesto                   
+rápido                  
+lépido                  
+ágil                    
+regra
+regulamentos            
+lei                     
+regra                   
+regulamento             
+norma                   
+risco técnico
+limite
+limite                  
+limitação               
+fronteira               
+fronteira               
+limite                  
+borda                   
+aba                     
+limite                  
+borda                   
+perímetro               
+ fronteira              
+ limite                 
+ fronteira              
+ fronteiras             
+ limite                 
+ fronteira              
+ máximo                 
+ limite                 
+ limite                 
+ delimitação            
+ borda                  
+ fronteira              
+ perímetro              
+ limite                 
+ limite                 
+ fronteira              
+ borda                  
+ margem                 
+ limite                 
+ margem interior        
+máquina
+Máquina simples         
+máquina                 
+Máquinas Simples        
+mecanismo               
+máquina                 
+motor                   
+motores                 
+máquina                 
+máquina                 
+maquinaria              
+ máquina                
+ maquinaria             
+ máquina                
+ locomotivas            
+ máquina                
+ locomotiva             
+ carro                  
+ automóvel              
+ auto                   
+ automovel              
+ viatura                
+ automóveis particulares
+ automóveis             
+ máquina                
+ veículo                
+risco político
+especialistas
+serviço
+serviço                 
+serviço                 
+serviço                 
+instalação              
+serviço                 
+infra-estrutura         
+serviço                 
+incumbência             
+serviço                 
+Serviço                 
+ serviço                
+ serviço                
+ lugar                  
+ profissão              
+ função                 
+ serviço                
+ emprego                
+ ofício                 
+ trabalho               
+ ocupação               
+ serviço                
+ serviço                
+ serviço                
+ serviço                
+infraestrutura crítica f
+risco principal
+proteção
+protecção               
+proteção                
+proteção                
+mecenato                
+proteção                
+defesa                  
+desastre
+desastre                
+flagelo                 
+calamidade              
+catástrofe              
+tragédia                
+catástrofes             
+cataclismo              
+catástrofes naturais    
+catástrofes             
+catástrofe              
+ desastre               
+ desastre               
+consultoria
+consultoria             
+consultoria             
+consultas               
+participante de mercado 
+falha em transação
+risco operacional
+risco de compensação
+interrupção de operaçao 
+roubo
+roubar                  
+roubo                   
+rapto                   
+furto                   
+roubo                   
+roubo                   
+furto                   
+espoliação              
+assalto                 
+roubo                   
+ rapina                 
+ saque                  
+ roubo                  
+ botim                  
+ espólio                
+ pilhagem               
+ roubo                  
+ pilhagem               
+ saque                  
+agente de ameaça
+pessoa jurídica
+risco social e ambiental
+líder da indústria
+opções de tecnologia
+correção
+correção                
+emenda                  
+correção                
+precisão                
+correção                
+acurácia                
+exactidão               
+exatidão                
+rigor                   
+retificação             
+ correção               
+produto
+mercadoria              
+produto                 
+artigo                  
+objecto posto à venda   
+fazenda                 
+bem                     
+Bens                    
+mercadoria              
+artigo                  
+fazenda                 
+ produto                
+ mercadorias            
+ produtos               
+ produto                
+ produto                
+ produto                
+ produtos               
+ bens                   
+ produtos               
+ produção               
+ produto                
+ produções              
+ utensílio              
+ artefato               
+ produto                
+ produto                
+ produção               
+ fruto                  
+ produtos               
+ produto                
+risco legal
+pessoal
+companhia               
+pessoal                 
+elenco                  
+pessoal                 
+estado-maior            
+equipe de funcionários  
+pessoal                 
+pessoal                 
+polícias                
+polícia                 
+ pessoal                
+ Policia                
+ Polícia                
+ pessoal                
+ vulgo                  
+ povo                   
+ nação                  
+ gente                  
 vulnerabilidade
-exposição
-Exposições
+Vulnerabilidade         
+debilidade              
+vulnerabilidade         
+vulnerabilidade         
+exposição               
+ameaça
+ameaça                  
+ameaça                  
+ameaça                  
+risco                   
+perigo                  
+ameaça                  
+perigo                  
+ameaça                  
+risco                   
+ameaça                  
+ groźba                 
+Órgão regulador
+academia
+academia                
+academia                
+escola                  
+academia                
+Ginásio                 
+ginásio                 
+academia                
+mitigação do risco
+risco de contraparte
+risco
+risco                   
+risco                   
+linha                   
+traço                   
+risco                   
+listra                  
+perigo                  
+ameaça                  
+risco                   
+risco                   
+ perigo                 
+ ameaça                 
+ risco                  
+ perigo                 
+oferta de serviço
+líderes funcionais
+diretriz
+directiva               
+diretiva                
+directivas              
+diretriz                
+pesquisa
+pesquisa                
+sindicância             
+investigação            
+inquérito               
+investigação            
+pesquisa                
+exploração              
+sondagens de opinião púb
+pesquisa                
+pesquisa de opinião     
+ enquête                
+ pesquisa               
+ inquérito              
+ investigação           
+ Pesquisa               
+ pesquisa               
+pessoa física
+stakeholder
+fator de risco
+parte confiável

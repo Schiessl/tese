@@ -24,13 +24,22 @@ input_file1 = 'synsetsToCompare.txt'
 #input_file1 = 'out'+typeVar+'.txt'
 input_file2 = 'stpwFinalGroup.txt'
 output_file = 'compared'+typeVar+'.txt'
-limit = .8
+limit = .9
 ###############################################################################
 ###############################################################################
-
 #reading files and eliminating duplicated record
-d1 = list(set(open(input_file1,'rU').readlines()))
-d2 = list(set(open(input_file2,'rU').readlines()))
+#d1 = list(set(open(input_file1,'rU').readlines()))
+inpList1 = (open(input_file1,'rU').readlines())
+d1 = []
+#removing duplicates, but maintaining the order
+[d1.append(item.strip()) for item in inpList1 
+    if item.strip() not in d1 and len(item.strip()) > 0]
+    
+inpList2 = (open(input_file2,'rU').readlines())
+d2 = []
+#removing duplicates, but maintaining the order
+[d2.append(item.strip()) for item in inpList2 
+    if item.strip() not in d2 and len(item.strip()) > 0]
 
 ###############################################################################
 def string_matching(label1, label2): #by Maedchen and Staab
@@ -58,6 +67,7 @@ the Levenshtein distance (edit distance). It equates 1 for exact match and
         print "Error found:"
         traceback.print_exc(file=sys.stdout)
         return 0
+
 ###############################################################################
 def compWords(limit):
     """ (float) -> list
@@ -71,6 +81,7 @@ def compWords(limit):
     """
     t0=datetime.datetime.now()
     ordList=[]
+    deduplic=[]
     print 'Calculating similarities...'
     for i,w1 in enumerate(d1):
         ordTup=(w1.strip(),'not found', 0)              
@@ -81,26 +92,26 @@ def compWords(limit):
                 ordTup=(w1.strip(),w2.strip(),round(sm,3))              
                 ordList.append(ordTup)
                 continue
-            
-    
         ordList.append(ordTup)
-    
-    sortList = sorted(set(ordList), key=lambda e: (e[0],e[2]*-1))#sorting by w1 and sm (descending)
+
+    [deduplic.append(item) for item in ordList if item not in deduplic]# deduplication, but maintaining the order
+#    sortList = sorted(set(ordList), key=lambda e: (e[0],e[2]*-1))#sorting by w1 and sm (descending)
     print "done in %s" % (datetime.datetime.now() - t0),'\n'
-    return sortList
+#    return sortList
+    return deduplic
 
 ###############################################################################
 #Printing results and creating txt file
 to_file = open(output_file, 'w') #opening the file to write
 for i,t in enumerate(compWords(limit)):
-        print i,'({v1} ; {v2}) = {v3}'.format(v1=t[0], 
+        print i,'({v1} ; {v2}) = {v3}'.format(v1=t[0], #print to screen
                                             v2=t[1], 
                                             v3=t[2])
-        print>>to_file, t[0], ',', t[1], ',', t[2]
+        print>>to_file, t[0], ',', t[1], ',', t[2] #printing to file
 
 to_file.close() #closing the file
-            
+
 print("\nEnd of process in %s" % (datetime.datetime.now() - time1))
 
 #import doctest
-#doctest.testmod()     
+#doctest.testmod()
