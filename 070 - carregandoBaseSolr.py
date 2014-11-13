@@ -9,7 +9,7 @@ import datetime
 time1 =datetime.datetime.now()
 ##############################################################################
 def postSolr(path,fileInput,solrCore):
-    '''(string,string,string) --> None
+    '''(str,str,str) --> None
     
     Post files to a Solr instance
     '''
@@ -22,8 +22,10 @@ def postSolr(path,fileInput,solrCore):
 ##############################################################################
 # Change the top dir path and file extension to start searching
 # Change the Solr core 
-topDir = "/Users/marceloschiessl/RDF_text_project/corpus/WikiRisk/tese/internos_caixa"
+topDir = "/Users/marceloschiessl/RDF_text_project/corpus/WikiRisk/test/gloss"
 extension = '.pdf' # The file extension to search for
+extension = '.html' # The file extension to search for
+extension = '.txt' # The file extension to search for
 solrCore = 'pdfsTest' 
 i=0
 for dirPath, dirNames, nameFiles in os.walk(topDir):

@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding:  latin-1 -*-
 """ Spliting text in portuguese (enconding 'latin-1') using regex. 
+DON'T FORGET TO CHANGE THE SECOND LINE coding: latin-1
 """
 import nltk
 import re
@@ -8,6 +9,7 @@ import re
 text = open('smallText_pt.txt','rU').read().decode('utf-8')
 #text = '''Família-Empresa S.A. dispõe de $12.400 milhões para concorrência. A 
 #âncora, desse negócio, é conhecida no coração do Órgão responsável. '''
+#text = 'Bancos situados em Brasília'
 
 print "\n****** Using Regex to tokenize ******"
 pattern = r'''(?x)    # set flag to allow verbose regexps
