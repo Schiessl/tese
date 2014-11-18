@@ -34,7 +34,9 @@ with open(input_file, 'rb') as csvfile:
 
 # print list with no duplication
 for i, w in enumerate(dedup(vocab)):
+    print dedup(w)
     for t in dedup(w):
         print i,t
+        
         
 print("\nEnd of process in %s" % (datetime.datetime.now() - time1))

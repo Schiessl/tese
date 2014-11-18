@@ -2,39 +2,62 @@
 # -*- coding: utf-8 -*-
 """ Extracting the list of terms and its variants
 """
-import csv
 import datetime
-from deduplication import dedup
+import nltk
+from nltk import word_tokenize
+import os
+from nltk.corpus.reader.plaintext import PlaintextCorpusReader
 
 time1 =datetime.datetime.now()
 
-# reading source
-###############################################################################
-# only alter variables here
-input_file = 'sourceToLemon.csv'
+f = '''INVESTIMENTO RELEVANTE É aquele que comparado ao porte de faturamento 
+da empresa, sua estrutura de capitais, situação econômico-financeira, bem como 
+sua posição no mercado, apresenta significância nos seus negócios, 
+sob a ótica do risco de crédito;'''
+#text = nltk.Text(f)
+words = nltk.word_tokenize(f)
 
-with open(input_file, 'rb') as csvfile:
-    f = csv.reader(csvfile, delimiter=',', quotechar='|')
-    i = 0
-    vocab = []
-    for w in (f):
-        if w[0].strip() == '@':
-            lst =[]
-            i += 1
-            lexicalEntry = w[1].strip()
-            lst.append(lexicalEntry)
-#            print i, 'Term :', lexicalEntry
-            j = 1
-        else:
-            otherForm = w[1].strip()
-            lst.append(otherForm)
-#            print str(i)+'.'+str(j),'Variant :', otherForm
-            j += 1
-        vocab.append(lst)
+### ATENTION: if we have some tmp files like .DS_STORE in Mac OSX, we must remove it ###
 
-# print list with no duplication
-for i, w in enumerate(dedup(vocab)):
-    for t in dedup(w):
-        print i,t
-        
+# Reading corpus
+corpusdir = '/Users/marceloschiessl/RDF_text_project/corpus/WikiRisk/test/glossAnnotated/' # Directory of corpus.
+#corpusdir = '/Users/marceloschiessl/RDF_text_project/corpus/WikiRisk/test/test1/' # Directory of corpus.   
+risco = PlaintextCorpusReader(corpusdir, '.*')
+risco.fileids()
+
+#raw_text = risco.raw('gloss533.txt')
+#print raw_text[0:]
+
+# Some statistics
+
+print 'Number of term: ', len(risco.words())
+print 'Number of unique terms: ', len(set(risco.words()))
+
+fd = nltk.FreqDist(risco.words())
+print fd.freq('bem')
+print fd['bem']
+
+# presenting ngrams of the term
+target_word = 'bem'
+fd = nltk.FreqDist(ng
+              for ng in nltk.ngrams(risco.words(), 6)
+              if target_word in ng)
+for hit in fd:
+    print(' '.join(hit))
+
+txt = nltk.Text(risco.words())
+print "\n### See words in a context ###"
+print txt.concordance('bem')
+
+print "\n### Find words with a similar text distribution ###"
+print txt.similar('bem')
+
+print "\n### Statistically significant collocations in a text ###"
+print txt.collocations()
+
+fd1 = nltk.FreqDist(txt)
+print fd1
+#print risco.concordance('bem')    
+    
+#############################################################################
 print("\nEnd of process in %s" % (datetime.datetime.now() - time1))
