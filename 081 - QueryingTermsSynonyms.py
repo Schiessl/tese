@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """ Extracting the list of terms and its variants
 """
+from __future__ import division, print_function
 import csv
 import datetime
 from deduplication import dedup
@@ -45,32 +46,38 @@ def buildQuery(query, boost):
     '''
     for line in dedup(inputVocab(inputCsv)):
         domainVocab = dedup(line)
+#        print domainVocab
         if query in domainVocab:
-#            print domainVocab
             boostedQuery = ''
             for i,w in enumerate(domainVocab):
+#                print w
                 boostedQuery = boostedQuery + ' ' + '"' + w + '"' + 'ˆ' + str(boost)
-        else:
-            boostedQuery = query
+#            return boostedQuery
+#        else:
+#            boostedQuery = query
+#            return boostedQuery
     return boostedQuery
-
-#print buildQuery('ameaça',4).strip()
+#print buildQuery('bem',4).strip()
 
 #############################################################################
 # Automatic procedure to read a list of terms from an ontology e submit them
 # to a Solr instance.
-manualQuery = ["produto", "mercadoria", "artigo", "objecto posto à venda", 
-               "fazenda", "bem", "produção", "utensílio", "artefato", "fruto",
-               "produtos"]
+#manualQuery = ["produto", "mercadoria", "artigo", "objecto posto à venda", 
+#               "fazenda", "bem", "produção", "utensílio", "artefato", "fruto",
+#               ]
 #manualQuery = ['ameaça', 'risco', 'perigo']
+manualQuery = ['artigo']             
 for i,w in enumerate(manualQuery):
 #        print w
         fullWordQuery ='"' + w + '"' 
         wordQuery = w
-        print fullWordQuery
-        print "Semantic search - ", " term: ", wordQuery, "|| Docs found : ", connectSolr(buildQuery(wordQuery,4)).total_results
-        print "Syntactic search - ", " term: ", wordQuery, "|| Docs found : ", connectSolr(fullWordQuery).total_results
+#        print fullWordQuery
+        print("Semantic search - ", " term: ", wordQuery, "|| Docs found : ", 
+              connectSolr(buildQuery(wordQuery,4)).total_results)
+        print("Syntactic search - ", " term: ", wordQuery, "|| Docs found : ", 
+              connectSolr(fullWordQuery).total_results)
         print
+
 
 #############################################################################
 # Automatic procedure to read a list of terms from an ontology e submit them
