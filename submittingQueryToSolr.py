@@ -31,7 +31,23 @@ if __name__ == '__main__':
     query = "(basileia~  'risco operacional'ˆ4) AND banc~" #grouping '()' and boosting terms 'ˆ'
 #    query = {'q' : '*:basileia~&fl=*,score', 'debugQuery' : 'true', 'facet.field' : ['risco', 'caixa']}
     query = "basileia~&fl=*,score"
-    
+    query = "ameaça? perigo? risco? &fl=*,score" #relevant freq
+    query = "ameaça~ perigo~ risc~ &fl=*,score" #existent freq
+    query = '"risco operacional" &fl=*,score' #relevant freq    
+    query = '"risco operacional"~ &fl=*,score' #existent freq    
+    query = '"risco de credito" &fl=*,score' #relevant freq    
+    query = '"riscos de crédito"~ &fl=*,score' #existent freq    
+    query = 'bem bens produto produtos artigo artigos mercadoria mercadorias AND NOT "bem como"' #relevant freq    
+    query = 'produto AND NOT "bem como" &fl=*,score' #existent freq    
+    query = 'crime? crimes roubo? furto? fraude fraudes violação corrupção suborno extorsão ataque assalto rapto &fl=*,score' #existent freq    
+#    query = '''bem bens posse posses propriedade propriedades ativo ativos
+#    recurso recursos AND NOT "bem como"''' #relevant freq    
+#    query = '''"bem como"'''
+#    query = '''propriedade'''
+
+#produto", "mercadoria", "artigo", "objecto posto à venda", 
+#               "fazenda", "bem", "produção", "utensílio", "artefato", "fruto"
+
     for j, docs in enumerate(connectSolr(query,'pdfsTest',1000,0).documents):
         for doc in (docs['content']):
             print ' \n'+ str(j) + ' - ' + doc.strip()

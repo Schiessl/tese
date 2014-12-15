@@ -62,21 +62,57 @@ def buildQuery(query, boost):
 #############################################################################
 # Automatic procedure to read a list of terms from an ontology e submit them
 # to a Solr instance.
-#manualQuery = ["produto", "mercadoria", "artigo", "objecto posto à venda", 
-#               "fazenda", "bem", "produção", "utensílio", "artefato", "fruto",
+#manualQuery = [
+#"bem", 
+#"bens", 
+#'propriedade', 
+#'propriedades', 
+#'recurso',
+#'recursos',
+#'posse',
+#'posses',
+#'ativo',
+#'ativos'
 #               ]
 #manualQuery = ['ameaça', 'risco', 'perigo']
-manualQuery = ['artigo']             
+manualQuery = [
+'crime', 
+'crimes', 
+'furto', 
+'furtos', 
+'roubo', 
+'roubos',
+'fraude', 
+'fraudes', 
+'violação', 
+'violações', 
+'corrupção', 
+'corrupções', 
+'suborno', 
+'subornos', 
+'extorsão', 
+'extorsões', 
+'ataque', 
+'ataques', 
+'assalto', 
+'assaltos', 
+'rapto', 
+'raptos' 
+]             
+#manualQuery = ['firma']
+
 for i,w in enumerate(manualQuery):
 #        print w
         fullWordQuery ='"' + w + '"' 
         wordQuery = w
 #        print fullWordQuery
-        print("Semantic search - ", " term: ", wordQuery, "|| Docs found : ", 
-              connectSolr(buildQuery(wordQuery,4)).total_results)
+#        print("Semantic search - ", " term: ", wordQuery, "|| Docs found : ", 
+#              connectSolr(buildQuery(wordQuery,4)).total_results)
         print("Syntactic search - ", " term: ", wordQuery, "|| Docs found : ", 
               connectSolr(fullWordQuery).total_results)
         print
+print("\nSemantic search - ", " term: ", wordQuery, "|| Docs found : ", 
+              connectSolr(buildQuery(wordQuery,4)).total_results)
 
 
 #############################################################################
