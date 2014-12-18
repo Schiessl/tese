@@ -82,7 +82,7 @@ def synset_property(wordSynset, synsetToCompare):
             print('f) Hyponyms: ', synset.hyponyms())
 #            for h in synset.hyponyms():
 #                print(h, '(@EN) --', h.lemma_names('por'), '(@PT)')
-            print('f.1) Hyponynyms @pt: ', 
+            print('f.1) Hyponyms @pt: ', 
                   [pt.lemma_names('por') for pt in synset.hyponyms()])
             print('g) Hypernyms: ', synset.hypernyms())
 #            for h in synset.hypernyms():
